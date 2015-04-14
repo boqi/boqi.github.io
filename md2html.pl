@@ -10,9 +10,9 @@ while(<>) {
 	push @text,$_;
 }
 
-#use Text::Markdown qw/markdown/;
+use Text::Markdown qw/markdown/;
 #print markdown(join("\n",@text));
 
-print join("<BR/>\n",@text);
+print markdown(join("<BR/>\n",@text));
 
 
