@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <!-- Created on Thu, 23 Nov 2017 18:05:54 GMT -->
+  <ShortName>Torrentkitty.tv</ShortName>
+  <Description>Search torrentkitty</Description>
+  <Url type="text/html" method="get" template="https://www.torrentkitty.tv/search/{searchTerms}/"/>
+  <Image width="16" height="16">https://www.torrentkitty.tv/favicon.ico</Image>
+  <Developer>Eotect Nahn</Developer>
+  <InputEncoding>UTF-8</InputEncoding>
+  <moz:SearchForm>https://www.torrentkitty.tv/search/</moz:SearchForm>
+  <Url type="application/opensearchdescription+xml"
+     rel="self"
+     template="http://boqi.github.io/opensearch/tk.xml" />
+</OpenSearchDescription>
