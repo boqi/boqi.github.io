@@ -1,2 +1,2 @@
 # boqi.github.io
-http://boqi.github.io
+https://boqi.github.io
