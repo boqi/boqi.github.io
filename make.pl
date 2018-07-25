@@ -28,7 +28,8 @@ foreach(@files) {
 print $fo '</head>',"\n";
 print $fo "<html>\n<body>\n<ul>\n";
 foreach(@files) {
-	print $fo "    <li>https://boqi.github.io/opensearch/$_</br></li>\n";
+	my $url = "https://boqi.github.io/opensearch/$_";
+	print $fo "<li><a href=\"$url\">$url</a></br></li>\n";
 }
 print $fo "</ul>\n";
 print $fo '<span style="text-align:right">Last Update ' . scalar(localtime) . "</span>\n";

@@ -1,6 +1,6 @@
-Hello, World!
+*** BOQI ***
 
-[[opensearch.html opensearch]]
+1. [opensearch](opensearch.html)
 
 
 
