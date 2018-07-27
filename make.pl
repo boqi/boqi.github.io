@@ -2,6 +2,7 @@
 use strict;
 print STDERR "Generating <opensearch.html> ...\n";
 
+my $BASE = 'https://raw.githubusercontent.com/boqi/boqi.github.io/master';
 
 my $di;
 my @files;
@@ -22,13 +23,13 @@ foreach(@files) {
 	print STDERR "    $n ...\n";
 	print $fo '<link rel="search" type="application/opensearchdescription+xml"',"\n";
 	print $fo "    title=\"$n search\"\n";
-	print $fo "    href=\"https://boqi.github.io/opensearch/$_\"\n";
+	print $fo "    href=\"$BASE/opensearch/$_\"\n";
 	print $fo ">\n";
 }
 print $fo '</head>',"\n";
 print $fo "<html>\n<body>\n<ul>\n";
 foreach(@files) {
-	my $url = "https://boqi.github.io/opensearch/$_";
+	my $url = "$BASE/opensearch/$_";
 	print $fo "<li><a href=\"$url\">$url</a></br></li>\n";
 }
 print $fo "</ul>\n";
