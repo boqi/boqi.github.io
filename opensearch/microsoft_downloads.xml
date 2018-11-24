@@ -1,1 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"><ShortName>Microsoft Downloads</ShortName><Description>Search downloads from microsoft.com.</Description><Image width="16" height="16" type="image/x-icon">https://www.microsoft.com/favicon.ico</Image><Url type="text/html" template="https://www.microsoft.com/en-us/search/downloadresults?q={searchTerms}"/><InputEncoding>UTF-8</InputEncoding></OpenSearchDescription>
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+<ShortName>Microsoft Downloads</ShortName>
+<Description>Search downloads from microsoft.com.</Description>
+<Image width="16" height="16" type="image/x-icon">https://visualstudio.microsoft.com/wp-content/uploads/2017/02/Microsoft-favicon.png</Image>
+<Url type="text/html" template="https://www.microsoft.com/en-us/search/downloadresults?q={searchTerms}"/>
+<InputEncoding>UTF-8</InputEncoding>
+</OpenSearchDescription>
