@@ -31,7 +31,15 @@
 		"ruleSearchName": "class.odd.0@tag.a@text",
 		"ruleSearchNoteUrl": "class.odd.0@tag.a@href",
 		"ruleSearchUrl": "https:\/\/www.jilin55.com\/modules\/article\/search.php?searchkey=searchKey|char=gbk",
-		"serialNumber": 1205
+		"serialNumber": 1205,
+		"ruleFindUrl":"最新小说::https://www.jilin55.com/paihang/postdate_1.html&&最近更新::https://www.jilin55.com/paihang/lastupdate_1.html&&玄幻小说::https://www.jilin55.com/xuanhuan/1.html&&仙侠小说::https://www.jilin55.com/xianxia/1.html&&都市小说::https://www.jilin55.com/dushi/1.html&&军史小说::https://www.jilin55.com/junshi/1.html&&网游小说::https://www.jilin55.com/wangyou/1.html&&科幻小说::https://www.jilin55.com/kehuan/1.html&&恐怖小说::https://www.jilin55.com/kongbu/1.html",
+		"ruleFindList":"class.tt",
+		"ruleFindName":"tag.h3@tag.a@text",
+		"ruleFindAuthor":"class.p1@tag.a@text#作者：",
+		"ruleFindIntroduce":"class.p2@textNodes",
+		"ruleFindLastChapter":"",
+		"ruleFindCoverUrl":"class.pic@tag.img@src",
+		"ruleFindNoteUrl":"tag.h3@tag.a@href"
 	}
 ]
 
