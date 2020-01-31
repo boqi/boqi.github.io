@@ -5,12 +5,14 @@ BOOK SOURCE JSON
 ----------------
 
 1. [BOQI ALL](booksource/boqi.json)
-   [JILIN55](booksource/jililn55.json)
+
+   * [JILIN55](booksource/jililn55.com.json)
+   * [48WX](booksource/48wx.org.json)
+   * [WMTXT](booksource/wmtxt.com.json)
+   * [SANJIUZW](booksource/sanjiuzw.com.json)
 
 2. [gedoor](https://gedoor.github.io/MyBookshelf/bookSource.json)
-
 3. [bookSources](https://booksources.github.io)
-
 4. [blackholep](https://blackholep.github.io/20190815set1)
 
 BOOK SOURCE PAGE
