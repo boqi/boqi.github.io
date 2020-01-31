@@ -4,13 +4,14 @@ BOOK SOURCE
 BOOK SOURCE JSON
 ----------------
 
-1. [gedoor](https://gedoor.github.io/MyBookshelf/bookSource.json)
+1. [BOQI ALL](booksource/boqi.json)
+   [JILIN55](booksource/jililn55.json)
 
-2. [bookSources](https://booksources.github.io)
+2. [gedoor](https://gedoor.github.io/MyBookshelf/bookSource.json)
 
-3. [blackholep](https://blackholep.github.io/20190815set1)
+3. [bookSources](https://booksources.github.io)
 
-4. [boqi](boqi.json)
+4. [blackholep](https://blackholep.github.io/20190815set1)
 
 BOOK SOURCE PAGE
 ----------------
