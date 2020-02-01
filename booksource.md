@@ -16,6 +16,8 @@ BOOK SOURCE JSON
         for <http://www.sanjiuzw.com>
     * [Discuz Archiver](booksource/discuz_archiver.json)
         for <http://www.mayafoot.com/archiver/>
+	* [水中色](booksource/8541.xyz.json)
+		for <http://www.8541.xyz)
 		
 2. [gedoor](https://gedoor.github.io/MyBookshelf/bookSource.json)
 3. [bookSources](https://booksources.github.io)

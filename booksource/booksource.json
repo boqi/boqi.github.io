@@ -160,4 +160,24 @@
   "ruleSearchUrl": "https://www.wmtxt.com/modules/article/search.php?searchkey=searchKey|char=gbk",
   "serialNumber": 0,
   "weight": 0
-}]
+},
+{
+  "bookSourceGroup": "Sesadit",
+  "bookSourceName": "水中色",
+  "bookSourceUrl": "http://www.8541.xyz",
+  "enable": true,
+  "ruleBookContent": " class.n_bd@html|class.content@html",
+  "ruleChapterList": "tag.td@tag.a",
+  "ruleChapterName": "text",
+  "ruleChapterUrlNext": "class.page@tag.a@href",
+  "ruleContentUrl": "href",
+  "ruleFindAuthor": "",
+  "ruleFindList": "class.nav@tag.ul@tag.li.!0@tag.a",
+  "ruleFindName": "text#^#水中色 - #",
+  "ruleFindNoteUrl": "href",
+  "ruleFindUrl": "浏览::http://www.8541.xyz",
+  "ruleIntroduce": "tag.td@tag.a@text",
+  "serialNumber": 0,
+  "weight": 0
+}
+]
