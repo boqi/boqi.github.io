@@ -8,6 +8,8 @@ BOOK SOURCE JSON
 
     * [48文学网①](booksource/48wx.org.json)
         for <https://www.48wx.org>
+    * [69书吧](booksource/69kshu.com.json)
+        for <http://www.69kshu.com>
     * [水中色](booksource/8541.xyz.json)
         for <http://www.8541.xyz>
     * [就要狼文](booksource/91langwen.net.json)
