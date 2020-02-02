@@ -17,11 +17,16 @@ BOOK SOURCE JSON
     * [Discuz Archiver](booksource/discuz_archiver.json)
         for <http://www.mayafoot.com/archiver/>
 	* [水中色](booksource/8541.xyz.json)
-		for <http://www.8541.xyz)
-		
-2. [gedoor](https://gedoor.github.io/MyBookshelf/bookSource.json)
-3. [bookSources](https://booksources.github.io)
-4. [blackholep](https://blackholep.github.io/20190815set1)
+		for <http://www.8541.xyz>
+
+2. [PICTURE SOURCE](booksource/picsource.json)
+
+	* [美图录](booksource/picsource/meitulu.com.json)
+		for <http://www.meitulu.com>
+
+3. [gedoor](https://gedoor.github.io/MyBookshelf/bookSource.json)
+4. [bookSources](https://booksources.github.io)
+5. [blackholep](https://blackholep.github.io/20190815set1)
 
 BOOK SOURCE PAGE
 ----------------
