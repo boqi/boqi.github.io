@@ -5,7 +5,6 @@ BOOK SOURCE JSON
 ----------------
 
 #####MY BOOKSOURCE#####
-
 3. [gedoor](https://gedoor.github.io/MyBookshelf/bookSource.json)
 4. [bookSources](https://booksources.github.io)
 5. [blackholep](https://blackholep.github.io/20190815set1)

@@ -4,25 +4,30 @@ BOOK SOURCE
 BOOK SOURCE JSON
 ----------------
 
-1. [BOQI ALL](booksource/booksource.json)
+1. [booksource.json](booksource/booksource.json)
 
-    * [JILIN55](booksource/jililn55.com.json)
-        for <https://www.jilin55.com>
-    * [48WX](booksource/48wx.org.json)
+    * [48文学网①](booksource/48wx.org.json)
         for <https://www.48wx.org>
-    * [WMTXT](booksource/wmtxt.com.json)
+    * [水中色](booksource/8541.xyz.json)
+        for <http://www.8541.xyz>
+    * [就要狼文](booksource/91langwen.net.json)
+        for <https://m.91langwen.net>
+    * [Mayafoot Archive Book](booksource/discuz_archiver.json)
+        for <http://www.mayafoot.com/archiver>
+    * [吉林小说网](booksource/jilin55.com.json)
+        for <https://www.jilin55.com>
+    * [两性小说](booksource/liangxingxs.com.json)
+        for <http://www.liangxingxs.com>
+    * [三九小说](booksource/sanjiuzw.com.json)
+        for <https://www.sanjiuzw.com>
+    * [无名小说](booksource/wmtxt.com.json)
         for <https://www.wmtxt.com>
-    * [SANJIUZW](booksource/sanjiuzw.com.json)
-        for <http://www.sanjiuzw.com>
-    * [Discuz Archiver](booksource/discuz_archiver.json)
-        for <http://www.mayafoot.com/archiver/>
-	* [水中色](booksource/8541.xyz.json)
-		for <http://www.8541.xyz>
 
-2. [PICTURE SOURCE](booksource/picsource.json)
+2. [picsource/picsource.json](booksource/picsource/picsource.json)
 
-	* [美图录](booksource/picsource/meitulu.com.json)
-		for <http://www.meitulu.com>
+    * [美图录](booksource/picsource/picsource/meitulu.com.json)
+        for <https://www.meitulu.com>
+
 
 3. [gedoor](https://gedoor.github.io/MyBookshelf/bookSource.json)
 4. [bookSources](https://booksources.github.io)

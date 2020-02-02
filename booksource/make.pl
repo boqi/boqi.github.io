@@ -22,13 +22,15 @@ use strict;
 use warnings;
 use utf8;
 
-use MyPlace::Json qw/decode_json/;
+use MyPlace::JSON qw/decode_json/;
 
 
 my @src1;
 my @src2;
 my $dst1 = "booksource.json";
 my $dst2 = "picsource/picsource.json";
+my $path1 = "booksource";
+my $path2 = "booksource/picsource";
 
 
 my $wd = $0;
@@ -39,21 +41,24 @@ chdir($wd) if($wd);
 foreach(glob("*.json")) {
 	push @src1,$_ unless($_ eq "booksource.json");
 }
+
+
 foreach(glob("picsource/*.json")) {
 	push @src2,$_ unless($_ eq "picsource/picsource.json");
 }
+
 
 my @text;
 
 sub merge_json {
 	my $index = shift;
+	my $path1 = shift;
 	my $dst1 = shift;
 	my @src1 = @_;
-	my @sources;
+	my @source;
 	print STDERR "Making $dst1 ...\n";
-	push @text,"#. [$dst1](booksource/$dst1)\n\n";
-
-	open FO,">",$dst1 or die("$!\n";
+	push @text,"$index. [$dst1](booksource/$dst1)\n\n";
+	open FO,">",$dst1 or die("$!\n");
 	foreach(@src1) {
 		if(!open FI,"<",$_) {
 			print STDERR "Error reading $_ [SKIP IT]\n";
@@ -72,7 +77,7 @@ sub merge_json {
 				print STDERR "Error writting $_ [SKIP IT]\n";
 				next;
 			}
-			print FO2 "[" . $text . "]";
+			print FO2 "[" . $text . "]\n";
 			close FO2;
 		}
 		else {
@@ -81,36 +86,38 @@ sub merge_json {
 			$text =~ s/\]\s*$//m;
 		}
 		print STDERR "Processing $_ ...\n";
-		my $line = "    * [" . $json->{bookSourceName} . "]($dst1/$_)\n        for <" . $json->{bookSourceUrl} . ">\n";
+		my $line = "    * [" . $json->{bookSourceName} . "]($path1/$_)\n        for <" . $json->{bookSourceUrl} . ">\n";
 		print STDERR $line;
 		push @text,$line;
 		push @source,$text;
 	}
+	push @text,"\n";
 	print STDERR "Writting $dst1 ...\n";
-	print FO "[\n",join(",",@source),"\n]\n";
+	print FO "[\n",join(",",@source),"]\n";
 	close FO;
 }
 
-merge_json("1",$dst1,@src1);
-merge_json("2",$dst2,@src2);
+merge_json("1",$path1,$dst1,@src1);
+merge_json("2",$path2,$dst2,@src2);
 
 my $text = join("",@text);
 my $md = "booksource.md";
 my $template = "template.md";
 print STDERR "Writting $md ...\n";
 print STDERR "Reading $template ... \n";
-my $template = "";
+my $template_text = "";
 if(open FI,"<",$template) {
-	$template = join("",<FI>);
+	$template_text = join("",<FI>);
 	close $template;
 	close FI;
 }
-$template =~ s/#####MY BOOKSOURCE#####/$text/;
+$template_text =~ s/#####MY BOOKSOURCE#####/$text/;
 open FO,">",$md;
-print FO $template;
+print FO $template_text;
 close FO;
 
 print STDERR "OK\n";
-
+print STDERR "Coping to ../$md ...\n";
+system("cp","-av","--",$md,"../$md");
 
 
