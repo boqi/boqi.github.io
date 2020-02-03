@@ -22,8 +22,12 @@ BOOK SOURCE JSON
         for <http://www.liangxingxs.com>
     * [三九小说](booksource/sanjiuzw.com.json)
         for <https://www.sanjiuzw.com>
+    * [手机小说[sjks88]](booksource/sjks88.com.json)
+        for <https://www.sjks88.com>
     * [无名小说](booksource/wmtxt.com.json)
         for <https://www.wmtxt.com>
+    * [鱼鱼中文](booksource/yuyuzw.com.json)
+        for <http://www.yuyuzw.com>
 
 2. [picsource/picsource.json](booksource/picsource/picsource.json)
 
