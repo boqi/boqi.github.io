@@ -359,7 +359,7 @@
   "ruleBookKind": "class.myinfor@class.stats@tag.a.0@text",
   "ruleBookLastChapter": "class.myinfor@class.stats@tag.a.1@text",
   "ruleBookName": "tag.h1@text",
-  "ruleChapterList": "class.dirlist@tag.ul.0@tag.li",
+  "ruleChapterList": "class.dirlist@tag.ul.0@tag.li@tag.a",
   "ruleChapterName": "text",
   "ruleChapterUrl": "class.body novel@class.operate.0@tag.a.1@href",
   "ruleContentUrl": "href",
