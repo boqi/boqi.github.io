@@ -6,6 +6,8 @@ BOOK SOURCE JSON
 
 1. [booksource.json](booksource/booksource.json)
 
+    * [151看书](booksource/151kanshu.com.json)
+        for <https://www.151kanshu.com>
     * [48文学网①](booksource/48wx.org.json)
         for <https://www.48wx.org>
     * [69书吧](booksource/69kshu.com.json)
@@ -20,10 +22,16 @@ BOOK SOURCE JSON
         for <https://www.jilin55.com>
     * [两性小说](booksource/liangxingxs.com.json)
         for <http://www.liangxingxs.com>
+    * [落初文学[收费]](booksource/luochu.com.json)
+        for <https://www.luochu.com>
+    * [鱼鱼中文[手机版]](booksource/m.yuyuzw.com.json)
+        for <http://m.yuyuzw.com>
     * [三九小说](booksource/sanjiuzw.com.json)
         for <https://www.sanjiuzw.com>
     * [手机小说[sjks88]](booksource/sjks88.com.json)
         for <https://www.sjks88.com>
+    * [软街文学[试读]](booksource/softjie.cn.json)
+        for <http://www.softjie.cn>
     * [无名小说](booksource/wmtxt.com.json)
         for <https://www.wmtxt.com>
     * [鱼鱼中文](booksource/yuyuzw.com.json)
