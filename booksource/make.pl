@@ -98,7 +98,7 @@ sub merge_json {
 }
 
 merge_json("1",$path1,$dst1,@src1);
-merge_json("2",$path2,$dst2,@src2);
+merge_json("2",$path1,$dst2,@src2);
 
 my $text = join("",@text);
 my $md = "booksource.md";

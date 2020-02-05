@@ -43,9 +43,9 @@ BOOK SOURCE JSON
 
 2. [picsource/picsource.json](booksource/picsource/picsource.json)
 
-    * [四色AV](booksource/picsource/picsource/bou9.com.json)
+    * [四色AV](booksource/picsource/bou9.com.json)
         for <https://www.bou9.com>
-    * [美图录](booksource/picsource/picsource/meitulu.com.json)
+    * [美图录](booksource/picsource/meitulu.com.json)
         for <https://www.meitulu.com>
 
 
