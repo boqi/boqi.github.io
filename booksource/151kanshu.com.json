@@ -1,5 +1,5 @@
 [{
-  "bookSourceGroup": "Sesadit; nsfw; 隐藏章节",
+  "bookSourceGroup": "Sesadit; nsfw; js",
   "bookSourceName": "151看书",
   "bookSourceUrl": "https://www.151kanshu.com",
   "enable": true,
@@ -7,11 +7,11 @@
   "ruleBookContent": "tag.h1@text&&id.content@textNodes#.*最快更新.*?最新章节。",
   "ruleBookLastChapter": "id.intro@tag.a.0@text",
   "ruleBookName": "id.info@tag.h1@text",
-  "ruleChapterList": "id.list@tag.dt.1@js:b=result.get(0).nextElementSiblings()",
-  "ruleChapterName": "tag.a.0@text",
+  "ruleChapterList": "id.list@tag.dt.1@js:b=result.get(0).nextElementSiblings().select(\"a\");c=[];for(i=0;i<b.size();i++){d=b.get(i);c.push(d);if((i+1)%3 ==0){e=d.attr(\"href\");f=java.ajax(e);java.setContent(f);f=java.getElements(\"class.bottem1@tag.a.3\");c.push(f.get(0));}};c",
+  "ruleChapterName": "text",
   "ruleChapterUrl": "",
   "ruleChapterUrlNext": "",
-  "ruleContentUrl": "tag.a.0@href",
+  "ruleContentUrl": "href",
   "ruleContentUrlNext": "",
   "ruleCoverUrl": "class.fmimg@tag.img@src",
   "ruleFindAuthor": "tag.span.2@text",
@@ -33,6 +33,6 @@
   "ruleSearchName": "tag.a.0@text",
   "ruleSearchNoteUrl": "tag.a.0@href",
   "ruleSearchUrl": "/modules/article/search.php?searchtype=articlename&searchkey=searchKey&page=searchPage|char=gbk",
-  "serialNumber": 1,
+  "serialNumber": 0,
   "weight": 0
 }]
