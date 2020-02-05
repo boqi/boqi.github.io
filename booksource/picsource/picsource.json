@@ -4,7 +4,7 @@
   "bookSourceName": "四色AV",
   "bookSourceUrl": "https://www.bou9.com",
   "enable": true,
-  "ruleBookContent": "class.cat_pos_l@text&&class.content@html",
+  "ruleBookContent": "class.content@tag.img@data-original",
   "ruleBookName": "class.cat_pos_l@tag.a.!0@text#[\\r\\n]+#_#",
   "ruleChapterList": "class.text-list-html@tag.li@tag.a",
   "ruleChapterName": "text",
