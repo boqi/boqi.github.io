@@ -16,6 +16,8 @@ BOOK SOURCE JSON
         for <http://www.8541.xyz>
     * [就要狼文](booksource/91langwen.net.json)
         for <https://m.91langwen.net>
+    * [四色AV](booksource/bou9.com.json)
+        for <https://www.bou9.com>
     * [Mayafoot Archive Book](booksource/discuz_archiver.json)
         for <http://www.mayafoot.com/archiver>
     * [吉林小说网](booksource/jilin55.com.json)
@@ -26,6 +28,8 @@ BOOK SOURCE JSON
         for <https://www.luochu.com>
     * [鱼鱼中文[手机版]](booksource/m.yuyuzw.com.json)
         for <http://m.yuyuzw.com>
+    * [漂流地文学网2](booksource/pld2.net.json)
+        for <http://www.pld2.net>
     * [三九小说](booksource/sanjiuzw.com.json)
         for <https://www.sanjiuzw.com>
     * [手机小说[sjks88]](booksource/sjks88.com.json)
@@ -39,6 +43,8 @@ BOOK SOURCE JSON
 
 2. [picsource/picsource.json](booksource/picsource/picsource.json)
 
+    * [四色AV](booksource/picsource/picsource/bou9.com.json)
+        for <https://www.bou9.com>
     * [美图录](booksource/picsource/picsource/meitulu.com.json)
         for <https://www.meitulu.com>
 
