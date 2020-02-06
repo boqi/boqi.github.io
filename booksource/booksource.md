@@ -18,6 +18,10 @@ BOOK SOURCE JSON
         for <https://m.91langwen.net>
     * [四色AV](booksource/bou9.com.json)
         for <https://www.bou9.com>
+    * [四色AV[有声]](booksource/bou9.com_audio.json)
+        for <https://www.bou9.com/#有声>
+    * [四色AV[小说]](booksource/bou9.com_text.json)
+        for <https://www.bou9.com/#小说>
     * [Mayafoot Archive Book](booksource/discuz_archiver.json)
         for <http://www.mayafoot.com/archiver>
     * [吉林小说网](booksource/jilin55.com.json)
@@ -45,6 +49,8 @@ BOOK SOURCE JSON
 
     * [四色AV](booksource/picsource/bou9.com.json)
         for <https://www.bou9.com>
+    * [四色AV[图片]](booksource/picsource/bou9.com_image.json)
+        for <https://www.bou9.com/#图片>
     * [美图录](booksource/picsource/meitulu.com.json)
         for <https://www.meitulu.com>
 
