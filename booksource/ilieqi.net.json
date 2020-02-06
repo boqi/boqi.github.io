@@ -1,0 +1,32 @@
+[
+{
+   "bookSourceUrl" : "https://www.ilieqi.net",
+   "httpUserAgent" : "",
+   "ruleSearchUrl" : "https://www.ilieqi.net/search.htm?keyword=searchKey&searchId=4&pageNo=searchPage",
+   "bookSourceGroup" : "正版; 发现; Sesadit",
+   "ruleIntroduce" : "tag.p.2@text",
+   "ruleContentUrl" : "a@href@js:result.replace(\"chapter\",\"https://www.ilieqi.net/chapter\")",
+   "weight" : 0,
+   "ruleSearchNoteUrl" : "h3@a@href",
+   "serialNumber" : 158,
+   "ruleFindUrl" : "全部::https://www.ilieqi.net/booklist/100_100_100_100_100_1_0_1.htm&&\n玄幻::https://www.ilieqi.net/booklist/100_1_100_100_100_1_0_1.htm&&\n都市::https://www.ilieqi.net/booklist/100_3_100_100_100_1_0_1.htm&&\n科幻::https://www.ilieqi.net/booklist/100_8_100_100_100_1_0_1.htm&&\n悬疑::https://www.ilieqi.net/booklist/100_10_100_100_100_1_0_1.htm&&\n网游::https://www.ilieqi.net/booklist/100_11_100_100_100_1_0_1.htm&&\n古言::https://www.ilieqi.net/booklist/100_13_100_100_100_1_0_1.htm&&\n现言::https://www.ilieqi.net/booklist/100_14_100_100_100_1_0_1.htm&&\n女频悬疑::https://www.ilieqi.net/booklist/100_33_100_100_100_1_0_1.htm&&\n男频短篇::https://www.ilieqi.net/booklist/100_40_100_100_100_1_0_1.htm&&",
+   "ruleBookContent" : "class.context@p!0@text",
+   "ruleSearchLastChapter" : "tag.p.0@text",
+   "ruleChapterUrl" : "text.查看全部目录@href@js:result.replace(\"chapterlist\",\"https://www.ilieqi.net/chapterlist\")",
+   "ruleSearchCoverUrl" : "tag.img@src",
+   "bookSourceType" : "",
+   "ruleBookName" : "class.o-info-box@h3@text#连载|完结",
+   "ruleSearchName" : "h3@text",
+   "ruleChapterName" : "a@text",
+   "ruleSearchAuthor" : "tag.p.1@text",
+   "ruleContentUrlNext" : "",
+   "ruleChapterList" : "class.o-mulu-con@ul@li",
+   "bookSourceName" : "爱猎奇",
+   "ruleSearchKind" : "tag.p.3@text",
+   "ruleChapterUrlNext" : "",
+   "enable" : true,
+   "ruleSearchList" : "class.booklist-con@class.b-box|tag.head",
+   "ruleCoverUrl" : "class.face-box@tag.img@src",
+   "ruleBookAuthor" : "class.o-info-box@tag.p.1@tag.span.0@text"
+}
+]

@@ -1,0 +1,30 @@
+[
+{
+   "ruleSearchKind" : "class.words@text&&class.name@tag.span@text",
+   "bookSourceName" : "就要狼文",
+   "ruleChapterList" : "class.chapter-list.1@class.list@tag.a",
+   "ruleChapterName" : "text",
+   "ruleSearchName" : "class.name@text",
+   "ruleSearchAuthor" : "class.info@text#作者：(.+)字数.*#$1#",
+   "ruleBookName" : "tag.h1@text",
+   "bookSourceType" : "",
+   "ruleSearchIntroduce" : "class.info@textNodes",
+   "ruleBookAuthor" : "",
+   "ruleBookLastChapter" : "class.chapter-list.0@class.list@tag.a.0#text",
+   "ruleSearchList" : "class.column-2",
+   "enable" : true,
+   "ruleChapterUrlNext" : "class.nextPage@href",
+   "ruleBookKind" : "class.info@textNodes",
+   "ruleContentUrl" : "href",
+   "ruleIntroduce" : "class.book-intro@text",
+   "bookSourceGroup" : "Sesadit; nsfw",
+   "ruleSearchUrl" : "/s.php@objectType=2&type=articlename&s=searchKey|char=gbk",
+   "bookSourceUrl" : "https://m.91langwen.net",
+   "ruleSearchLastChapter" : "class.update@tag.a@text",
+   "ruleBookContent" : "class.page-content@tag.p@text",
+   "serialNumber" : 10,
+   "ruleSearchNoteUrl" : "class.name@href",
+   "ruleFindUrl" : "更新::/shuku/0-lastupdate-0-searchPage.html\n新书::/shuku/0-postdate-0-searchPage.html\n排行::/shuku/0-allvisit-0-searchPage.html\n完本::/shuku/0-lastupdate-2-searchPage.html\n连载::/shuku/0-lastupdate-1-searchPage.html\n玄幻奇幻::/shuku/1-lastupdate-0-searchPage.html\n仙侠武侠::/shuku/2-lastupdate-0-searchPage.html\n都市言情::/shuku/3-lastupdate-0-searchPage.html\n穿越历史::/shuku/4-lastupdate-0-searchPage.html\n科幻灵异::/shuku/5-lastupdate-0-searchPage.html\n藏经阁::/shuku/6-lastupdate-0-searchPage.html\n其他类别::/shuku/7-lastupdate-0-searchPage.html",
+   "weight" : 0
+}
+]

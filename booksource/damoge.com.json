@@ -1,0 +1,31 @@
+[
+{
+   "enable" : true,
+   "ruleChapterUrlNext" : "",
+   "ruleCoverUrl" : "",
+   "ruleBookAuthor" : "",
+   "ruleSearchList" : "class.so new",
+   "ruleSearchName" : "tag.h2@tag.a.0@text@js:result == \"抱歉..！没有找到你要的内容！\" ? \"\" : result",
+   "ruleSearchAuthor" : "class.infos@tag.a.0@text",
+   "ruleContentUrlNext" : "",
+   "ruleChapterName" : "tag.a@text",
+   "ruleBookName" : "",
+   "ruleSearchKind" : "tag.span.3@text#类别：",
+   "ruleChapterList" : "class.book_list@tag.li",
+   "bookSourceName" : "大漠阁🔞",
+   "weight" : 0,
+   "ruleSearchCoverUrl" : "tag.img@src",
+   "ruleSearchLastChapter" : "tag.span.1@text",
+   "ruleChapterUrl" : "",
+   "ruleFindUrl" : "",
+   "serialNumber" : 310,
+   "ruleSearchNoteUrl" : "tag.h2@tag.a.0@href",
+   "ruleBookContent" : "class.contentbox@textNodes",
+   "bookSourceUrl" : "http://www.damoge.com",
+   "httpUserAgent" : "",
+   "ruleSearchUrl" : "http://www.damoge.com/plus/search.php?kwtype=0&searchtype=all&q=searchKey|char=gbk",
+   "ruleIntroduce" : "tag.p.0@text#简介：",
+   "ruleContentUrl" : "tag.a@href",
+   "bookSourceGroup" : "18禁; good; Sesadit"
+}
+]

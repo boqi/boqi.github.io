@@ -1,0 +1,32 @@
+[
+{
+   "ruleCoverUrl" : "class.p_box@class.pic@tag.a.0@tag.img.0@src",
+   "ruleBookAuthor" : "",
+   "ruleSearchList" : "class.ul_b_list@tag.li|tag.head",
+   "enable" : true,
+   "ruleChapterUrlNext" : "",
+   "ruleSearchKind" : "tag.h2.0@tag.span.0@text",
+   "ruleChapterList" : "class.list_box@tag.li@tag.a",
+   "bookSourceName" : "随梦小说",
+   "ruleSearchAuthor" : "class.words@tag.p.0@tag.a.0@text",
+   "ruleSearchName" : "tag.h2.0@tag.a.0@text@js:result == \"抱歉..！没有找到你要的内容！\" ? \"\" :  result;",
+   "ruleContentUrlNext" : "",
+   "ruleChapterName" : "text",
+   "bookSourceType" : "",
+   "ruleBookName" : "",
+   "ruleChapterUrl" : "",
+   "ruleSearchLastChapter" : "class.words@tag.p.3@text#-章节目录.*",
+   "ruleSearchCoverUrl" : "class.pic@tag.a.0@tag.img.0@src",
+   "serialNumber" : 250,
+   "ruleBookContent" : "class.box_box@textNodes",
+   "ruleSearchNoteUrl" : "tag.h2.0@tag.a.0@href",
+   "ruleFindUrl" : "",
+   "weight" : 0,
+   "ruleIntroduce" : "class.j_box@class.words@tag.p.1@textNodes",
+   "ruleContentUrl" : "href",
+   "bookSourceGroup" : "Sesadit",
+   "bookSourceUrl" : "http://www.suimeng.cc",
+   "httpUserAgent" : "",
+   "ruleSearchUrl" : "http://www.suimeng.cc/plus/search.php?kwtype=0&searchtype=articlename&q=searchKey|char=gbk"
+}
+]

@@ -1,0 +1,32 @@
+[
+{
+   "ruleIntroduce" : "id.mainSoftIntro@text",
+   "ruleContentUrl" : "tag.a@href",
+   "bookSourceGroup" : "Sesadit; 发现; js",
+   "bookSourceUrl" : "http://www.qishu.cc",
+   "httpUserAgent" : "",
+   "ruleSearchUrl" : "http://www.qishu.cc/search.asp?word=searchKey&m=2&page=searchPage|char=gbk",
+   "ruleSearchLastChapter" : "",
+   "ruleSearchCoverUrl" : "",
+   "ruleChapterUrl" : "id.downAddress@tag.a.2@href",
+   "ruleFindUrl" : "玄幻奇幻::http://www.qishu.cc/xuanhuan/list1_searchPage.html&&都市言情::http://www.qishu.cc/yanqing/list2_searchPage.html&&武侠仙侠::http://www.qishu.cc/wuxia/list3_searchPage.html&&耽美同人::http://www.qishu.cc/danmei/list4_searchPage.html&&青春校园::http://www.qishu.cc/xiaoyuan/list5_searchPage.html&&科幻灵异::http://www.qishu.cc/kehuan/list6_searchPage.html&&穿越架空::http://www.qishu.cc/chuanyeu/list7_searchPage.html&&网游竞技::http://www.qishu.cc/wangyou/list8_searchPage.html&&历史军事::http://www.qishu.cc/lishi/list9_searchPage.html&&女频言情::http://www.qishu.cc/yanqing/list10_searchPage.html&&现代文学::http://www.qishu.cc/wenxue/list11_searchPage.html",
+   "serialNumber" : 61,
+   "ruleSearchNoteUrl" : "tag.a.0@href",
+   "ruleBookContent" : "html@js:result = result.replace(/<!DOCTYPE[^>]+>/,\"\");java.setContent(result);result=java.getElements(\"class.articlecon\");result = result.get(0).html();",
+   "weight" : 0,
+   "ruleSearchKind" : "tag.a.1@text",
+   "ruleChapterList" : "class.cataloglist@tag.a",
+   "bookSourceName" : "奇书网①",
+   "ruleSearchAuthor" : "",
+   "ruleSearchName" : "tag.a.0@text#TXT.*",
+   "ruleChapterName" : "tag.a@text",
+   "ruleContentUrlNext" : "",
+   "bookSourceType" : "",
+   "ruleBookName" : "",
+   "ruleCoverUrl" : "id.fmimg@tag.img.0@src",
+   "ruleBookAuthor" : "class.downInfoRowL@text#.*小说作者：|小说大小：.*",
+   "ruleSearchList" : "id.listbox@class.mainListName|class.searchTopic|tag.head",
+   "ruleChapterUrlNext" : "",
+   "enable" : true
+}
+]

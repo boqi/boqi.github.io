@@ -1,0 +1,32 @@
+[
+{
+   "bookSourceGroup" : "发现; Sesadit",
+   "ruleIntroduce" : "class.book-detail@text",
+   "ruleContentUrl" : "tag.a@href",
+   "bookSourceUrl" : "http://www.daocaorenshuwu.com",
+   "httpUserAgent" : "",
+   "ruleSearchUrl" : "http://www.daocaorenshuwu.com/plus/search.php?keyword=searchKey&pagesize=20&TotalResult=22&PageNo=searchPage",
+   "ruleBookContent" : "id.cont-text@tag.p@text|id.cont-text@tag.div@text#内容来自.*|www.*|daocao.*|copy.*|稻草人.*",
+   "serialNumber" : 165,
+   "ruleSearchNoteUrl" : "tag.h4@tag.a.0@href|tag.td.0@tag.a.0@href|tag.td.1@tag.a.0@href",
+   "ruleFindUrl" : "连载::http://www.daocaorenshuwu.com/lianzai/&&完结::http://www.daocaorenshuwu.com/wanjie/&&玄幻::http://www.daocaorenshuwu.com/xuanhuan{,searchPage}.html&&奇幻::http://www.daocaorenshuwu.com/qihuan{,searchPage}.html&&武侠::http://www.daocaorenshuwu.com/wuxia{,searchPage}.html&&仙侠::http://www.daocaorenshuwu.com/xianxia{,searchPage}.html&&都市::http://www.daocaorenshuwu.com/dushi{,searchPage}.html&&轻改::http://www.daocaorenshuwu.com/qing{,searchPage}.html&&历史::http://www.daocaorenshuwu.com/lishi{,searchPage}.html&&军事::http://www.daocaorenshuwu.com/junshi{,searchPage}.html&&游戏::http://www.daocaorenshuwu.com/youxi{,searchPage}.html&&科幻::http://www.daocaorenshuwu.com/kehuan{,searchPage}.html&&灵异::http://www.daocaorenshuwu.com/lingyi{,searchPage}.html&&言情::http://www.daocaorenshuwu.com/yanqing{,searchPage}.html&&耽美::http://www.daocaorenshuwu.com/danmei{,searchPage}.html&&当代::http://www.daocaorenshuwu.com/dangdai{,searchPage}.html&&侦探::http://www.daocaorenshuwu.com/zhentan{,searchPage}.html&&儿童::http://www.daocaorenshuwu.com/ertong{,searchPage}.html&&名著::http://www.daocaorenshuwu.com/mingzhu{,searchPage}.html&&励志::http://www.daocaorenshuwu.com/lizhi{,searchPage}.html&&悬疑::http://www.daocaorenshuwu.com/xuanyi{,searchPage}.html&&经管::http://www.daocaorenshuwu.com/jingguan{,searchPage}.html&&同人::http://www.daocaorenshuwu.com/tongren{,searchPage}.html&&传记::http://www.daocaorenshuwu.com/zhuanji{,searchPage}.html&&散文::http://www.daocaorenshuwu.com/sanwen{,searchPage}.html&&外国::http://www.daocaorenshuwu.com/waiguo{,searchPage}.htmli&&畅销::http://www.daocaorenshuwu.com/chuban{,searchPage}.html&&杂志::http://www.daocaorenshuwu.com/zazhi{,searchPage}.html&&漫画::http://www.daocaorenshuwu.com/manhua{,searchPage}.html&&纪实::http://www.daocaorenshuwu.com/jishi{,searchPage}.html&&幽默::http://www.daocaorenshuwu.com/youmo{,searchPage}.html&&健康::http://www.daocaorenshuwu.com/health{,searchPage}.html&&诗集::http://www.daocaorenshuwu.com/poetry{,searchPage}.html&&学习::http://www.daocaorenshuwu.com/xuexi{,searchPage}.html&&心理::http://www.daocaorenshuwu.com/xinli{,searchPage}.html&&宗教::http://www.daocaorenshuwu.com/foxue{,searchPage}.html&&哲学::http://www.daocaorenshuwu.com/zhexue{,searchPage}.html&&旅游::http://www.daocaorenshuwu.com/travel{,searchPage}.html&&科普::http://www.daocaorenshuwu.com/kepu{,searchPage}.html&&育儿::http://www.daocaorenshuwu.com/yuer{,searchPage}.html&&女性::http://www.daocaorenshuwu.com/woman{,searchPage}.html&&文化::http://www.daocaorenshuwu.com/culture{,searchPage}.html&&官场::http://www.daocaorenshuwu.com/guanchang{,searchPage}.html&&青春::http://www.daocaorenshuwu.com/youth{,searchPage}.html&&网络::http://www.daocaorenshuwu.com/net{,searchPage}.html&&国学::http://www.daocaorenshuwu.com/guoxue{,searchPage}.html&&逻辑::http://www.daocaorenshuwu.com/logic{,searchPage}.html&&创业::http://www.daocaorenshuwu.com/cuangye{,searchPage}.html&&次元::http://www.daocaorenshuwu.com/erciyuan{,searchPage}.html&&英文::http://www.daocaorenshuwu.com/english{,searchPage}.html&&其他::http://www.daocaorenshuwu.com/other{,searchPage}.html",
+   "ruleChapterUrl" : "",
+   "ruleSearchLastChapter" : "class.media-info@text|tag.td.2@text#TXT下载",
+   "ruleSearchCoverUrl" : "class.media@tag.img@data-original",
+   "weight" : 0,
+   "ruleChapterList" : "id.all-chapter@class.col-md-6 item",
+   "bookSourceName" : "稻草人书屋",
+   "ruleSearchKind" : "",
+   "bookSourceType" : "",
+   "ruleBookName" : "",
+   "ruleChapterName" : "tag.a@text",
+   "ruleSearchName" : "class.media@tag.h4@tag.a.0@title|tag.a.0@title#《|》",
+   "ruleSearchAuthor" : "tag.td.1@text#.*】",
+   "ruleContentUrlNext" : "class.col-md-6 text-center@tag.a.2@href",
+   "ruleSearchList" : "class.col-md-12 mb10|class.table table-condensed@tag.tr!0|class.table@tag.tr!0",
+   "ruleCoverUrl" : "class.fl@tag.img@src",
+   "ruleBookAuthor" : "",
+   "enable" : true,
+   "ruleChapterUrlNext" : ""
+}
+]

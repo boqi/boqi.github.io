@@ -1,0 +1,31 @@
+[
+{
+   "ruleSearchAuthor" : "class.state@tag.a.0@text",
+   "ruleSearchName" : "class.eA.0@text@js:if(result == \"抱歉..！没有找到你要的内容！\") result=\"\";result",
+   "ruleChapterName" : "tag.a@text",
+   "ruleBookName" : "",
+   "bookSourceType" : "",
+   "ruleSearchKind" : "class.words.0@text#.*型：|状.*",
+   "bookSourceName" : "新书在线",
+   "ruleChapterList" : "class.list_box@tag.li",
+   "enable" : true,
+   "ruleChapterUrlNext" : "",
+   "ruleBookAuthor" : "",
+   "ruleCoverUrl" : "",
+   "ruleSearchList" : "class.ul_b_list@tag.li",
+   "httpUserAgent" : "",
+   "ruleSearchUrl" : "http://www.xinshuxs.com/plus/search.php?kwtype=0&searchtype=all&q=searchKey|char=gbk",
+   "bookSourceUrl" : "http://www.xinshuxs.com",
+   "ruleContentUrl" : "tag.a@href",
+   "ruleIntroduce" : "class.words@tag.p.1@text#简介：",
+   "bookSourceGroup" : "Sesadit",
+   "weight" : 0,
+   "ruleChapterUrl" : "",
+   "ruleSearchLastChapter" : "class.arcurl@text#章.*",
+   "ruleSearchCoverUrl" : "tag.img@src",
+   "ruleSearchNoteUrl" : "tag.a.0@href",
+   "serialNumber" : 240,
+   "ruleBookContent" : "class.box_box@textNodes",
+   "ruleFindUrl" : ""
+}
+]

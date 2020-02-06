@@ -1,0 +1,32 @@
+[
+{
+   "ruleSearchName" : "tag.a@tag.b@text||tag.a@text",
+   "ruleContentUrlNext" : "id.main@tag.table.1@tag.tbody@tag.tr@tag.td@tag.table.0@tag.tbody@tag.tr@tag.td.2@tag.strong@tag.a@href",
+   "ruleSearchAuthor" : "",
+   "ruleChapterName" : "tag.a@text",
+   "bookSourceType" : "",
+   "ruleBookName" : "class.book@tag.h1@text",
+   "ruleSearchKind" : "",
+   "ruleChapterList" : "class.book@tag.dl@tag.dd",
+   "bookSourceName" : "天涯书库📚",
+   "ruleChapterUrlNext" : "",
+   "enable" : true,
+   "ruleCoverUrl" : "",
+   "ruleBookAuthor" : "class.book@tag.h2@text#作者: ",
+   "ruleSearchList" : "class.leftbox@tag.ul@tag.li||class.middlebox@tag.ul@tag.div@tag.li||class.listbox@tag.ul@tag.div@tag.li",
+   "bookSourceUrl" : "https://www.tianyabooks.com",
+   "httpUserAgent" : "",
+   "ruleSearchUrl" : "",
+   "ruleIntroduce" : "class.book@tag.div@tag.p@text",
+   "ruleContentUrl" : "tag.a@href",
+   "bookSourceGroup" : "发现; Sesadit",
+   "weight" : 0,
+   "ruleChapterUrl" : "",
+   "ruleSearchLastChapter" : "",
+   "ruleSearchCoverUrl" : "",
+   "serialNumber" : 183,
+   "ruleBookContent" : "id.main@tag.p.1@html",
+   "ruleSearchNoteUrl" : "tag.a@href",
+   "ruleFindUrl" : "华人文学::https://www.tianyabooks.com/cn/&&世界文学::https://www.tianyabooks.com/world/&&言情小说::https://www.tianyabooks.com/romance/&&网络小说::https://www.tianyabooks.com/net/&&恐怖灵异::https://www.tianyabooks.com/horror/&&侦探推理::https://www.tianyabooks.com/spy/&&科幻小说::https://www.tianyabooks.com/sf/&&玄幻小说::https://www.tianyabooks.com/fantasy/&&武侠小说::https://wx.tianyabooks.com/book/"
+}
+]

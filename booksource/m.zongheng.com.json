@@ -1,0 +1,32 @@
+[
+{
+   "serialNumber" : 155,
+   "ruleFindUrl" : "",
+   "ruleSearchNoteUrl" : "tag.a.0@href",
+   "ruleBookContent" : "text",
+   "ruleSearchCoverUrl" : "class.bookimg.0@tag.img.0@src",
+   "ruleSearchLastChapter" : "",
+   "ruleChapterUrl" : "",
+   "weight" : 0,
+   "bookSourceGroup" : "Sesadit; 正版",
+   "ruleContentUrl" : "href",
+   "ruleIntroduce" : "class.book_intro.0@text",
+   "httpUserAgent" : "",
+   "ruleSearchUrl" : "https://m.zongheng.com/search?field=all&keywords=searchKey&pageNum=searchPage",
+   "bookSourceUrl" : "http://m.zongheng.com",
+   "ruleSearchList" : "tag.ul@tag.li|tag.head",
+   "ruleBookAuthor" : "class.info.0@tag.span.0@text",
+   "ruleCoverUrl" : "class.bookimg.0@tag.img.0@src",
+   "enable" : true,
+   "ruleChapterUrlNext" : "",
+   "bookSourceName" : "纵横手机版",
+   "ruleChapterList" : "class.book_list@tag.a",
+   "ruleSearchKind" : "tag.p.1@text#\\s+-.*$#",
+   "ruleBookName" : "class.bookname.0@text",
+   "bookSourceType" : "",
+   "ruleSearchName" : "tag.span.0@text",
+   "ruleChapterName" : "text",
+   "ruleSearchAuthor" : "tag.p.0@text#^.*\\s+(.+)著#$1#",
+   "ruleContentUrlNext" : ""
+}
+]

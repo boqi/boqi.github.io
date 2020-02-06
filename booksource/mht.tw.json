@@ -1,0 +1,32 @@
+[
+{
+   "ruleBookAuthor" : "",
+   "ruleCoverUrl" : "id.fmimg@tag.img.0@src",
+   "ruleSearchList" : "id.newscontent@tag.div@class.l@tag.li|class.bookbox|tag.head",
+   "enable" : true,
+   "ruleChapterUrlNext" : "",
+   "ruleSearchKind" : "class.s1@text#\\]|\\[",
+   "bookSourceName" : "棉花糖",
+   "ruleChapterList" : "id.list@tag.dd!0:1:2:3:4:5:6:7:8",
+   "ruleSearchAuthor" : "class.s4@text",
+   "ruleSearchName" : "class.bookname@text|class.s2@text",
+   "ruleContentUrlNext" : "text.下一页@href",
+   "ruleChapterName" : "tag.a@text",
+   "ruleBookName" : "",
+   "bookSourceType" : "",
+   "ruleSearchCoverUrl" : "",
+   "ruleSearchLastChapter" : "class.s3@text",
+   "ruleChapterUrl" : "",
+   "ruleFindUrl" : "",
+   "serialNumber" : 209,
+   "ruleSearchNoteUrl" : "tag.span.1@tag.a@href",
+   "ruleBookContent" : "id.nr@html",
+   "weight" : 0,
+   "ruleContentUrl" : "tag.a@href@js:\"http://m.mht.tw\"+result",
+   "ruleIntroduce" : "id.intro@text",
+   "bookSourceGroup" : "Sesadit",
+   "ruleSearchUrl" : "case.php?m=search@key=searchKey&submit=",
+   "httpUserAgent" : "",
+   "bookSourceUrl" : "https://www.mht.tw"
+}
+]

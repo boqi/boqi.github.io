@@ -1,0 +1,31 @@
+[
+{
+   "bookSourceName" : "飞库书包网",
+   "ruleChapterList" : "id.list@tag.dd!0:1:2:3:4:5:6:7:8",
+   "ruleSearchKind" : "class.odd.2@text|id.info@tag.p.3@text#分类：",
+   "ruleBookName" : "",
+   "bookSourceType" : "",
+   "ruleChapterName" : "tag.a@text",
+   "ruleSearchName" : "class.odd@tag.a.0@text|id.info@tag.h1.0@text",
+   "ruleSearchAuthor" : "class.odd.1@text|id.info@tag.p.0@text",
+   "ruleSearchList" : "class.grid@tag.tr.!0|id.maininfo",
+   "ruleBookAuthor" : "",
+   "ruleCoverUrl" : "id.fmimg@tag.img@src",
+   "enable" : true,
+   "ruleChapterUrlNext" : "",
+   "bookSourceGroup" : "Sesadit; 普通",
+   "ruleContentUrl" : "tag.a@href",
+   "ruleIntroduce" : "id.intro@tag.p@text",
+   "ruleSearchUrl" : "https://www.feikusb.com/modules/article/search.php?searchkey=searchKey|char=gbk",
+   "httpUserAgent" : "",
+   "bookSourceUrl" : "https://www.feikusb.com",
+   "serialNumber" : 141,
+   "ruleBookContent" : "id.content@textNodes",
+   "ruleSearchNoteUrl" : "class.odd@tag.a.0@href",
+   "ruleFindUrl" : "",
+   "ruleSearchCoverUrl" : "id.fmimg@tag.img.0@src",
+   "ruleSearchLastChapter" : "class.even@tag.a@text|id.info@tag.p.2@text",
+   "ruleChapterUrl" : "",
+   "weight" : 0
+}
+]

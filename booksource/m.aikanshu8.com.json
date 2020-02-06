@@ -1,0 +1,32 @@
+[
+{
+   "ruleCoverUrl" : "class.row@tag.img@src",
+   "ruleBookAuthor" : "class.col-md-10@tag.a.0@text",
+   "ruleSearchList" : "class.mySearch@children.!-1",
+   "enable" : true,
+   "ruleChapterUrlNext" : "",
+   "ruleSearchKind" : "",
+   "ruleChapterList" : "class.col-md-3",
+   "bookSourceName" : "爱看书吧",
+   "ruleSearchName" : "tag.a.0@text",
+   "ruleContentUrlNext" : "",
+   "ruleSearchAuthor" : "tag.li.2@text",
+   "ruleChapterName" : "tag.a@text",
+   "bookSourceType" : "",
+   "ruleBookName" : "tag.h1.0@text",
+   "ruleChapterUrl" : "",
+   "ruleSearchLastChapter" : "tag.a.1@text",
+   "ruleSearchCoverUrl" : "",
+   "ruleFindUrl" : "",
+   "serialNumber" : 219,
+   "ruleSearchNoteUrl" : "tag.a.0@href",
+   "ruleBookContent" : "id.htmlContent@textNodes",
+   "weight" : 0,
+   "ruleIntroduce" : "",
+   "ruleContentUrl" : "tag.a@href",
+   "bookSourceGroup" : "Sesadit",
+   "bookSourceUrl" : "https://m.aikanshu8.com",
+   "ruleSearchUrl" : "https://m.aikanshu8.com/modules/article/search.php?searchkey=searchKey&page=searchPage|char=gbk",
+   "httpUserAgent" : ""
+}
+]

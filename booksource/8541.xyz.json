@@ -1,20 +1,22 @@
-[{
-  "bookSourceGroup": "Sesadit",
-  "bookSourceName": "水中色",
-  "bookSourceUrl": "http://www.8541.xyz",
-  "enable": true,
-  "ruleBookContent": " class.n_bd@html|class.content@html",
-  "ruleChapterList": "tag.td@tag.a",
-  "ruleChapterName": "text",
-  "ruleChapterUrlNext": "class.page@tag.a@href",
-  "ruleContentUrl": "href",
-  "ruleFindAuthor": "",
-  "ruleFindList": "class.nav@tag.ul@tag.li.!0@tag.a",
-  "ruleFindName": "text#^#水中色 - #",
-  "ruleFindNoteUrl": "href",
-  "ruleFindUrl": "浏览::http://www.8541.xyz",
-  "ruleIntroduce": "tag.td@tag.a@text",
-  "serialNumber": 0,
-  "weight": 0
+[
+{
+   "ruleFindAuthor" : "",
+   "ruleChapterUrlNext" : "class.page@tag.a@href",
+   "enable" : true,
+   "ruleChapterName" : "text",
+   "bookSourceType" : "",
+   "ruleChapterList" : "tag.td@tag.a",
+   "bookSourceName" : "水中色",
+   "weight" : 0,
+   "ruleFindNoteUrl" : "href",
+   "ruleFindName" : "text#^#水中色 - #",
+   "serialNumber" : 13,
+   "ruleFindUrl" : "浏览::http://www.8541.xyz",
+   "ruleBookContent" : " class.n_bd@html|class.content@html",
+   "ruleFindList" : "class.nav@tag.ul@tag.li.!0@tag.a",
+   "bookSourceUrl" : "http://www.8541.xyz",
+   "ruleIntroduce" : "tag.td@tag.a@text",
+   "ruleContentUrl" : "href",
+   "bookSourceGroup" : "Sesadit"
 }
 ]

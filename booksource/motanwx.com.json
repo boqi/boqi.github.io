@@ -1,0 +1,31 @@
+[
+{
+   "bookSourceGroup" : "Sesadit; 优+",
+   "ruleIntroduce" : "class.info_con@tag.p@text",
+   "ruleContentUrl" : "tag.a@href",
+   "bookSourceUrl" : "http://www.motanwx.com",
+   "ruleSearchUrl" : "http://www.motanwx.com/plus/search.php?q=searchKey|char=gbk",
+   "httpUserAgent" : "",
+   "serialNumber" : 160,
+   "ruleSearchNoteUrl" : "tag.a@href",
+   "ruleBookContent" : "id.chapterContent@tag.p@textNodes",
+   "ruleFindUrl" : "",
+   "ruleChapterUrl" : "",
+   "ruleSearchLastChapter" : "",
+   "ruleSearchCoverUrl" : "",
+   "weight" : 0,
+   "ruleChapterList" : "class.booklist tomeBean@tag.td",
+   "bookSourceName" : "新墨坛文学",
+   "ruleSearchKind" : "class.rela@tag.a.1@text",
+   "bookSourceType" : "",
+   "ruleBookName" : "",
+   "ruleSearchAuthor" : "class.rela@tag.a.0@text",
+   "ruleSearchName" : "tag.h2@tag.a.0@text@js:if(result.match(/没有找到你要的内容/)) result=\"\";result;",
+   "ruleChapterName" : "tag.a@text",
+   "ruleSearchList" : "class.con@class.search_text",
+   "ruleCoverUrl" : "class.book_cover fl@tag.img.@src",
+   "ruleBookAuthor" : "",
+   "enable" : true,
+   "ruleChapterUrlNext" : ""
+}
+]

@@ -1,0 +1,32 @@
+[
+{
+   "ruleSearchKind" : "",
+   "bookSourceName" : "阿迪夫小说",
+   "ruleChapterList" : "tag.dl.1@tag.dd",
+   "ruleSearchName" : "tag.h2@tag.a@text#《|》.[/].*$",
+   "ruleContentUrlNext" : "",
+   "ruleSearchAuthor" : "tag.h2@tag.a@tag.span@text#[/]",
+   "ruleChapterName" : "tag.a@text",
+   "ruleBookName" : "tag.div@tag.h1@text",
+   "bookSourceType" : "",
+   "ruleBookAuthor" : "class.title@tag.span@text#[/]|作者：",
+   "ruleCoverUrl" : "class.cover@img@src",
+   "ruleSearchList" : "class.book|tag.head",
+   "ruleChapterUrlNext" : "",
+   "enable" : true,
+   "ruleContentUrl" : "tag.a@href",
+   "ruleIntroduce" : "class.info-text@text",
+   "bookSourceGroup" : "Sesadit",
+   "httpUserAgent" : "",
+   "ruleSearchUrl" : "https://www.adf.cc/search/0.html@formhash=8c7e103738b5a9b0&searchsubmit=1&q=searchKey",
+   "bookSourceUrl" : "https://www.adf.cc",
+   "ruleSearchLastChapter" : "tag.p.1@tag.a@text",
+   "ruleChapterUrl" : "class.read_link@tag.a@href",
+   "ruleSearchCoverUrl" : "tag.a@img@src",
+   "serialNumber" : 260,
+   "ruleSearchNoteUrl" : "tag.h2@tag.a@href",
+   "ruleBookContent" : "class.content_left@html",
+   "ruleFindUrl" : "",
+   "weight" : 0
+}
+]

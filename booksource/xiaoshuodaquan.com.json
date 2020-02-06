@@ -1,0 +1,32 @@
+[
+{
+   "bookSourceType" : "",
+   "ruleBookName" : "",
+   "ruleSearchName" : "class.r420@tag.h1.0@text|class.green.0@text",
+   "ruleSearchAuthor" : "class.black@text|class.width111@text",
+   "ruleContentUrlNext" : "",
+   "ruleChapterName" : "tag.a@text",
+   "ruleChapterList" : "class.clearfix dirconone@tag.li",
+   "bookSourceName" : "书书网",
+   "ruleSearchKind" : "class.width85 green@text",
+   "ruleChapterUrlNext" : "",
+   "enable" : false,
+   "ruleSearchList" : "class.con_lwrap|class.clearfix@tag.li|tag.head@js:if(java.getElements(\"title\").text() == \"\\\"默认\\\"搜索结果_书书网\") java.getElements(\"head\")",
+   "ruleCoverUrl" : "",
+   "ruleBookAuthor" : "",
+   "bookSourceUrl" : "http://www.xiaoshuodaquan.com",
+   "ruleSearchUrl" : "http://www.xiaoshuodaquan.com/bookso.php?kw=searchKey|char=gbk",
+   "httpUserAgent" : "",
+   "bookSourceGroup" : "普通; Sesadit; 慢",
+   "ruleIntroduce" : "class.r_cons@text",
+   "ruleContentUrl" : "tag.a@href",
+   "weight" : 0,
+   "serialNumber" : 124,
+   "ruleBookContent" : "class.page-content@text",
+   "ruleSearchNoteUrl" : "class.r420@href|tag.a@href",
+   "ruleFindUrl" : "",
+   "ruleSearchLastChapter" : "",
+   "ruleChapterUrl" : "class.diralinks@tag.a@href",
+   "ruleSearchCoverUrl" : "class.con_limg@tag.img@src"
+}
+]
