@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <boolean name="showAllFind" value="true" />
+    <boolean name="process_text" value="true" />
+    <int name="versionCode" value="15771" />
+    <string name="downloadPath">/storage/emulated/0/Android/data/com.gedoor.monkeybook/cache</string>
+    <boolean name="autoDownload" value="false" />
+    <string name="backupPath">content://com.android.externalstorage.documents/tree/primary%3APictures%2FBackups%2Fyuedu</string>
+    <int name="webPort" value="1122" />
+    <long name="DonateHb" value="0" />
+    <boolean name="upChangeSourceLastChapter" value="false" />
+    <int name="threads_num" value="6" />
+    <boolean name="auto_refresh" value="true" />
+    <boolean name="defaultToRead" value="false" />
+    <string name="bookshelf_px">0</string>
+    <boolean name="replaceEnableDefault" value="true" />
+    <int name="textDrawableIndex" value="1" />
+    <boolean name="lightFollowSys" value="true" />
+</map>
