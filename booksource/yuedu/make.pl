@@ -28,9 +28,9 @@ use MyPlace::JSON qw/decode_json/;
 my @src1;
 my @src2;
 my $dst1 = "booksource.json";
-my $dst2 = "picsource/picsource.json";
-my $path1 = "booksource";
-my $path2 = "booksource/picsource";
+my $dst2 = "booksource.json";
+my $path1 = "booksource/yuedu";
+my $path2 = "booksource/YiCiYuan";
 
 
 my $wd = $0;
@@ -54,10 +54,11 @@ sub merge_json {
 	my $index = shift;
 	my $path1 = shift;
 	my $dst1 = shift;
+	my $prefix = shift;
 	my @src1 = @_;
 	my @source;
 	print STDERR "Making $dst1 ...\n";
-	push @text,"$index. [$dst1](booksource/$dst1)\n\n";
+	push @text,"$index. [$dst1]($path1/$dst1)\n\n";
 	open FO,">",$dst1 or die("$!\n");
 	foreach(@src1) {
 		if(!open FI,"<",$_) {
