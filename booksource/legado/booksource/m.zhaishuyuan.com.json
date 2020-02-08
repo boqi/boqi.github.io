@@ -1,0 +1,20 @@
+{
+  "bookSourceGroup": "Sesadit;R5",
+  "bookSourceName": "斋书苑",
+  "bookSourceType": 0,
+  "bookSourceUrl": "https://m.zhaishuyuan.com",
+  "bookUrlPattern": "https://m.zhaishuyuan.com/book/.*",
+  "customOrder": -6,
+  "enabled": true,
+  "enabledExplore": true,
+  "exploreUrl": "玄幻奇幻::/shuku/1_1_0_0_0_{{page}}_0_1\n武侠仙侠::/shuku/2_1_0_0_0_{{page}}_0_1\n都市青春::/shuku/3_1_0_0_0_{{page}}_0_1\n历史军事::/shuku/4_1_0_0_0_{{page}}_0_1\n科幻灵异::/shuku/5_1_0_0_0_{{page}}_0_1\n游戏竞技::/shuku/6_1_0_0_0_{{page}}_0_1\n排行榜::/shuku/0_1_0_0_2_{{page}}_0_1\n完本::/shuku/0_3_0_0_2_{{page}}_0_1",
+  "lastUpdateTime": 0,
+  "loginUrl": "",
+  "ruleBookInfo": "{\n  \"author\": \"id.author@tag.a.0@text\",\n  \"coverUrl\": \"id.bookimg@tag.img.0@src\",\n  \"intro\": \"id.bookintro@html\",\n  \"kind\": \"class.count.0@tag.li@text##小\\\\s+类：|状\\\\s+态：\",\n  \"lastChapter\": \"id.newlist@tag.li.0@tag.a.0@text##-.*\",\n  \"name\": \"class.booktitle@tag.h1@text\",\n  \"tocUrl\": \"class.motion.0@tag.a@href##/?$##/1/\"\n}",
+  "ruleContent": "{\n  \"content\": \"<js>\\na=org.jsoup.Jsoup.parse(String(result).match(/id=\\\"content\\\">([\\\\s\\\\S]*?)<\\\\/div/)[1]).html();\\n\\n\\n\\nvar content=String(result.match(/function\\\\s*getDecode\\\\(\\\\)\\\\{(.*)\\\\}/)[1]);\\n\\n//还原屏蔽段落\\n\\ncontent=content.replace(/\\\\\\\\/g,\\\"/\\\")\\n.replace(/[A-Z]=~\\\\[\\\\];[A-Z]=\\\\{___.*?[A-Z],\\\\$__\\\\$:\\\\+\\\\+[A-Z]}\\\\;/,\\\"\\\")\\n.replace(/[A-Z]\\\\.\\\\$__\\\\$/g,\\\"9\\\")\\n.replace(/[A-Z]\\\\.\\\\$___/g,\\\"8\\\")\\n.replace(/[A-Z]\\\\.\\\\$\\\\$\\\\$/g,\\\"7\\\")\\n.replace(/[A-Z]\\\\.\\\\$\\\\$_/g,\\\"6\\\")\\n.replace(/[A-Z]\\\\.\\\\$_\\\\$/g,\\\"5\\\")\\n.replace(/[A-Z]\\\\.\\\\$__/g,\\\"4\\\")\\n.replace(/[A-Z]\\\\._\\\\$\\\\$/g,\\\"3\\\")\\n.replace(/[A-Z]\\\\._\\\\$_/g,\\\"2\\\")\\n.replace(/[A-Z]\\\\.__\\\\$/g,\\\"1\\\")\\n.replace(/[A-Z]\\\\.___/g,\\\"0\\\")\\n.replace(/\\\\+||\\\"/g,\\\"\\\")\\n.replace(/[A-Z].*?\\\\(\\\\!\\\\[\\\\]\\\\)\\\\[2\\\\]/,\\\"\\\")\\n.replace(/\\\\/\\\\/170/g,\\\"x\\\")\\n.replace(/\\\\/\\\\/106/g,\\\"F\\\")\\n.replace(/\\\\/\\\\/105/g,\\\"E\\\")\\n.replace(/\\\\/\\\\/104/g,\\\"D\\\")\\n.replace(/\\\\/\\\\/103/g,\\\"C\\\")\\n.replace(/\\\\/\\\\/102/g,\\\"B\\\")\\n.replace(/\\\\/\\\\/101/g,\\\"A\\\")\\n.replace(/\\\\('/,\\\"\\\")\\n.replace(/'\\\\).*/,\\\"\\\")\\n.replace(/\\\\/\\\\/74\\\\/{2,3}160\\\\/\\\\/76/g,\\\"\\\\n\\\")\\n.replace(/\\\\/\\\\/\\\\/\\\\/[A-Z]\\\\._(.{4})/g,\\\"%u$1\\\");\\nresult=String(a+unescape(content));\\nresult=result.replace(/防采集自动加载失败，点击手动加载，推荐安装最新版浏览器！/,\\\"\\\")\\n\\n</js>\"\n}",
+  "ruleExplore": "{}",
+  "ruleSearch": "{\n  \"author\": \"class.book_other.0@tag.span.0@text||class.four@tag.a@text|class.five@text\",\n  \"bookList\": \"id.sitebox@tag.dl||id.sitembox@tag.dl||class.shulist@tag.ul||class.rec_rullist@tag.ul\",\n  \"bookUrl\": \"tag.dt@tag.a.0@href||class.three@tag.a.0@href\",\n  \"coverUrl\": \"tag.dt@tag.a.0@href||class.three@tag.a.0@href##.*/(\\\\d+)##https://img.zhaishuyuan.com/bookpic/s$1.jpg\",\n  \"intro\": \"class.book_des@text\",\n  \"kind\": \"class.book_other.0@tag.span.!0@text||class.two@text##\\\\[|\\\\]\",\n  \"lastChapter\": \"class.book_other.1@tag.a@text||class.three@tag.a.1@text\",\n  \"name\": \"tag.h3@tag.a.0@text||class.three@tag.a.0@text\"\n}",
+  "ruleToc": "{\n  \"chapterList\": \"id.readerlists@tag.li\",\n  \"chapterName\": \"tag.a@text\",\n  \"chapterUrl\": \"tag.a@href\",\n  \"nextTocUrl\": \"class.pages@tag.a@href\"\n}",
+  "searchUrl": "https://m.zhaishuyuan.com/search/,{\n  \"charset\": \"gbk\",\n  \"body\": \"s={{key}}\",\n  \"method\": \"POST\"\n}",
+  "weight": 0
+}
