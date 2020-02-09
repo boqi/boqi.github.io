@@ -22,12 +22,16 @@ BOOK SOURCE JSON
         for <https://m.91langwen.net>
     * [阿迪夫小说](booksource/yuedu/adf.cc.json)
         for <https://www.adf.cc>
+    * [爱下书](booksource/yuedu/aixiashu.com.json)
+        for <http://www.aixiashu.com>
     * [四色AV](booksource/yuedu/bou9.com.json)
         for <https://www.bou9.com>
     * [四色AV[有声]](booksource/yuedu/bou9.com_audio.json)
         for <https://www.bou9.com/#audio>
     * [四色AV[小说]](booksource/yuedu/bou9.com_text.json)
         for <https://www.bou9.com/#text>
+    * [采墨阁](booksource/yuedu/caimoge.com.json)
+        for <https://www.caimoge.com>
     * [大漠阁🔞](booksource/yuedu/damoge.com.json)
         for <http://www.damoge.com>
     * [稻草人书屋](booksource/yuedu/daocaorenshuwu.com.json)
@@ -44,6 +48,8 @@ BOOK SOURCE JSON
         for <http://www.liangxingxs.com>
     * [落初文学[收费]](booksource/yuedu/luochu.com.json)
         for <https://www.luochu.com>
+    * [落秋中文CC](booksource/yuedu/luoqiuzw.cc.json)
+        for <https://www.luoqiuzw.cc>
     * [就要狼文](booksource/yuedu/m.91langwen.net.json)
         for <https://m.91langwen.net>
     * [爱看书吧](booksource/yuedu/m.aikanshu8.com.json)
@@ -82,6 +88,8 @@ BOOK SOURCE JSON
         for <https://www.tianyabooks.com>
     * [无名小说](booksource/yuedu/wmtxt.com.json)
         for <https://www.wmtxt.com>
+    * [新书本](booksource/yuedu/xbookben.com.json)
+        for <https://www.xbookben.com>
     * [书书网](booksource/yuedu/xiaoshuodaquan.com.json)
         for <http://www.xiaoshuodaquan.com>
     * [新书在线](booksource/yuedu/xinshuxs.com.json)
