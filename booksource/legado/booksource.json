@@ -1,4 +1,5 @@
-[{
+[
+{
   "bookSourceGroup": "Sesadit;R5",
   "bookSourceName": "斋书苑",
   "bookSourceType": 0,
@@ -17,6 +18,23 @@
   "ruleToc": "{\n  \"chapterList\": \"id.readerlists@tag.li\",\n  \"chapterName\": \"tag.a@text\",\n  \"chapterUrl\": \"tag.a@href\",\n  \"nextTocUrl\": \"class.pages@tag.a@href\"\n}",
   "searchUrl": "https://m.zhaishuyuan.com/search/,{\n  \"charset\": \"gbk\",\n  \"body\": \"s={{key}}\",\n  \"method\": \"POST\"\n}",
   "weight": 0
-}]
-
-
+},
+{
+  "bookSourceGroup": "Sesadit;R5",
+  "bookSourceName": "Zhaishuw.com",
+  "bookSourceType": 0,
+  "bookSourceUrl": "https://www.zhaishuw.com",
+  "customOrder": -4,
+  "enabled": true,
+  "enabledExplore": true,
+  "exploreUrl": "排行::/novelsearch/list/type/type/allvisit/page/{{page}}/\n完本::/novelsearch/list/type/isover/1/page/{{page}}/\n新书::/novelsearch/list/type/type/postdate/page/{{page}}/\n男频::/novelsearch/list/type/id/1/page/{{page}}/\n女频::/novelsearch/list/type/id/2/page/{{page}}/",
+  "lastUpdateTime": 0,
+  "ruleBookInfo": "{\n  \"author\": \"id.info@tag.a.0@text\",\n  \"coverUrl\": \"id.fmimg@tag.img@src\",\n  \"intro\": \"id.intro@text\",\n  \"kind\": \"class.con_top@tag.a.1@text&&class.num@textNodes&&id.info@tag.p.2@text\",\n  \"lastChapter\": \"id.list@tag.dd.0@text\",\n  \"name\": \"id.info@tag.h1@text\"\n}",
+  "ruleContent": "{\n  \"content\": \"<js>\\n\\tresult = java.getString(\\\"id.chaptercontent@html\\\",false);\\n\\tif(result.length()<100) {\\n\\t\\ta = java.getStringList(\\\"class.dropmenu-item@tag.a@href\\\",true);\\n\\t\\tif(a.size()>1) {\\n\\t\\t    b = a.get(1);\\n\\t\\t\\tc = java.ajax(b);\\n\\t\\t\\tjava.setContent(c,b);\\n\\t\\t\\tresult = java.getElements(\\\"id.chaptercontent\\\");\\n\\t\\t\\tresult = result.html();\\n\\t\\t}\\n\\t}\\n\\tresult;\\n</js>\"\n}",
+  "ruleExplore": "{}",
+  "ruleSearch": "{\n  \"author\": \"class.info@tag.a.1@text\",\n  \"bookList\": \"class.librarylist@tag.li||class.item||tag.head\",\n  \"bookUrl\": \"tag.a.0@href\",\n  \"coverUrl\": \"tag.img.0@src\",\n  \"intro\": \"class.intro@text||tag.div.2@textNodes##\\\\s+展开##\",\n  \"kind\": \"class.uptime@text&&class.info@tag.a.2@text\",\n  \"lastChapter\": \"class.last@tag.a.0@text||class.chapter@tag.a.0@text\",\n  \"name\": \"class.novelname@text||tag.a.0@text\"\n}",
+  "ruleToc": "{\n  \"chapterList\": \"id.list@tag.dt<js>var a=result.get(1);a.nextElementSiblings().select(\\\"a\\\");</js>\",\n  \"chapterName\": \"text##\\\\d+-\\\\d+$##\",\n  \"chapterUrl\": \"href\"\n}",
+  "searchUrl": "https://www.zhaishuw.com/search.html?searchkey={{key}}&searchtype=all",
+  "weight": 0
+}
+]
