@@ -10,6 +10,8 @@ BOOK SOURCE JSON
         for <https://www.114zw.la>
     * [151看书](booksource/yuedu/151kanshu.com.json)
         for <https://www.151kanshu.com>
+    * [38看书](booksource/yuedu/38kanshu.com.json)
+        for <https://www.38kanshu.com>
     * [48文学网①](booksource/yuedu/48wx.org.json)
         for <https://www.48wx.org>
     * [69书吧](booksource/yuedu/69kshu.com.json)
