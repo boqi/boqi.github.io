@@ -105,6 +105,8 @@ BOOK SOURCE JSON
         for <https://www.00sy.net>
     * [斋书苑](booksource/legado/m.zhaishuyuan.com.json)
         for <https://m.zhaishuyuan.com>
+    * [天幕小说](booksource/legado/tmshy.com.json)
+        for <https://www.tmshy.com>
     * [Zhaishuw.com](booksource/legado/zhaishuw.com.json)
         for <https://www.zhaishuw.com>
 

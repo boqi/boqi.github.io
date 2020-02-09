@@ -37,6 +37,25 @@
   "ruleToc": "{\n  \"chapterList\": \"id.readerlists@tag.li\",\n  \"chapterName\": \"tag.a@text\",\n  \"chapterUrl\": \"tag.a@href\",\n  \"nextTocUrl\": \"class.pages@tag.a@href\"\n}",
   "searchUrl": "https://m.zhaishuyuan.com/search/,{\n  \"charset\": \"gbk\",\n  \"body\": \"s={{key}}\",\n  \"method\": \"POST\"\n}",
   "weight": 0
+},{
+  "bookSourceGroup": "Sesadit;R5;js;json;ajax",
+  "bookSourceName": "天幕小说",
+  "bookSourceType": 0,
+  "bookSourceUrl": "https://www.tmshy.com",
+  "bookUrlPattern": "\\/book\\/\\d+\\/",
+  "customOrder": -10,
+  "enabled": true,
+  "enabledExplore": true,
+  "exploreUrl": "玄幻小说::/xuanhuan/page_{{page}}.html\n仙侠小说::/xianxia/page_{{page}}.html\n都市小说::/dushi/page_{{page}}.html\n军史小说::/junshi/page_{{page}}.html\n网游小说::/wangyou/page_{{page}}.html\n科幻小说::/kehuan/page_{{page}}.html\n灵异小说::/lingyi/page_{{page}}.html\n言情小说::/yangqing/page_{{page}}.html\n其他小说::/qita/page_{{page}}.html",
+  "header": "\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36\"",
+  "lastUpdateTime": 0,
+  "ruleBookInfo": "{\n  \"author\": \"class.booktag@tag.a.0@text\",\n  \"coverUrl\": \"class.bookintro@tag.mip-img@src\",\n  \"init\": \"class.book\",\n  \"intro\": \"class.bookintromore@text\",\n  \"kind\": \"class.booktag@tag.span@text\",\n  \"lastChapter\": \"class.bookchapter@text\",\n  \"name\": \"class.booktitle@text\"\n}",
+  "ruleContent": "{\n  \"content\": \"id.BookText@textNodes<js>if(result.length<100){\\na = java.getString(\\\"tag.script@html\\\",false);\\nb = [\\\"article_id\\\",\\\"chapter_id\\\",\\\"prevcid\\\",\\\"hash\\\"];\\nx = [\\\"id\\\",\\\"basecid\\\",\\\"cid\\\",\\\"eKey\\\"];\\nc = [];\\nfor(i=0;i<b.length;i++) {\\n    exp = RegExp('var\\\\\\\\s+' + b[i] + '\\\\\\\\s*=\\\\\\\\s*\\\"([^\\\"]+)');\\n    d = exp.exec(a);\\n\\tif(d) c.push(x[i]+\\\"=\\\" + d[1]);\\n}\\nr = \\\"https://www.tmshy.com/home/index/ajaxchapter,\\\" + JSON.stringify({\\\"method\\\":\\\"POST\\\",\\\"body\\\":c.join(\\\"&\\\")});\\nf = java.ajax(r);\\nj = JSON.parse(f);\\nresult = j.info.content;}\\nresult\\n</js>\",\n  \"nextContentUrl\": \"class.to_nextpage@tag.a.0@href\",\n  \"webJs\": \"\"\n}",
+  "ruleExplore": "{}",
+  "ruleSearch": "{\n  \"author\": \"class.author.0@text##作者：\",\n  \"bookList\": \"class.keywords@class.bookbox||class.bookbox\",\n  \"bookUrl\": \"class.bookname@tag.a.0@href\",\n  \"coverUrl\": \"tag.mip-img.0@src\",\n  \"intro\": \"class.update@text##简介：\",\n  \"kind\": \"class.author.1@text##分类：\",\n  \"lastChapter\": \"class.cat@tag.a.0@text\",\n  \"name\": \"class.bookname.0@text\"\n}",
+  "ruleToc": "{\n  \"chapterList\": \"class.fulllistall@tag.dd@tag.a\",\n  \"chapterName\": \"text\",\n  \"chapterUrl\": \"href\"\n}",
+  "searchUrl": "https://www.tmshy.com/home/search,{\n\"method\": \"POST\",\n\"body\":\"action=search&q={{key}}\"\n}",
+  "weight": 0
 },
 {
   "bookSourceGroup": "Sesadit;R5",
