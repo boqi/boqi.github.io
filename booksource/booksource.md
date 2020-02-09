@@ -88,6 +88,8 @@ BOOK SOURCE JSON
         for <https://www.tianyabooks.com>
     * [无名小说](booksource/yuedu/wmtxt.com.json)
         for <https://www.wmtxt.com>
+    * [铅笔小说](booksource/yuedu/x23qb.com.json)
+        for <https://www.x23qb.com>
     * [新书本](booksource/yuedu/xbookben.com.json)
         for <https://www.xbookben.com>
     * [书书网](booksource/yuedu/xiaoshuodaquan.com.json)
