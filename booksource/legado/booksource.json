@@ -1,5 +1,24 @@
 [
 {
+  "bookSourceGroup": "R5;Sesadit",
+  "bookSourceName": "零点书院",
+  "bookSourceType": 0,
+  "bookSourceUrl": "https://www.00sy.net",
+  "bookUrlPattern": "",
+  "customOrder": -9,
+  "enabled": true,
+  "enabledExplore": true,
+  "exploreUrl": "完本::/wanben-{{page}}/\n排行::/top-allvisit-{{page}}/\n新推::/top-newhot-{{page}}/\n推荐::/top-toptime-{{page}}/\n新手::/top-postdate-{{page}}/\n更新::/top-lastupdate-{{page}}/\n玄幻魔法::/sort-1-{{page}}/\n武侠修真::/sort-1-{{page}}/\n都市人生::/sort-1-{{page}}/\n历史军事::/sort-1-{{page}}/\n游戏竞技::/sort-1-{{page}}/\n科幻灵异::/sort-1-{{page}}/\n言情穿越::/sort-1-{{page}}/\n综合其他::/sort-1-{{page}}/\n全部小说::/sort-1-{{page}}/",
+  "lastUpdateTime": 0,
+  "loginUrl": "",
+  "ruleBookInfo": "{\n  \"author\": \"class.booktag@tag.a.0@text\",\n  \"coverUrl\": \"class.thumbnail@src\",\n  \"intro\": \"class.bookintro@text\",\n  \"name\": \"class.booktitle@text\"\n}",
+  "ruleContent": "{\n  \"content\": \"class.readcontent@html\"\n}",
+  "ruleExplore": "{}",
+  "ruleSearch": "{\n  \"author\": \"class.author.0@text##作者：\",\n  \"bookList\": \"class.bookbox\",\n  \"bookUrl\": \"tag.a.-1@href\",\n  \"intro\": \"class.update@text\",\n  \"lastChapter\": \"class.cat@a@text\",\n  \"name\": \"h4@text\",\n  \"wordCount\": \"class.author.1@text##字数：\"\n}",
+  "ruleToc": "{\n  \"chapterList\": \"id.list-chapterAll@dd@a\",\n  \"chapterName\": \"text\",\n  \"chapterUrl\": \"href\"\n}",
+  "searchUrl": "https://www.00sy.net/modules/article/search.php,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+  "weight": 0
+},{
   "bookSourceGroup": "Sesadit;R5",
   "bookSourceName": "斋书苑",
   "bookSourceType": 0,

@@ -101,6 +101,8 @@ BOOK SOURCE JSON
 
 2. [阅读3.0](booksource/legado/booksource.json)
 
+    * [零点书院](booksource/legado/00sy.net.json)
+        for <https://www.00sy.net>
     * [斋书苑](booksource/legado/m.zhaishuyuan.com.json)
         for <https://m.zhaishuyuan.com>
     * [Zhaishuw.com](booksource/legado/zhaishuw.com.json)
