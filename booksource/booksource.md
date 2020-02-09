@@ -48,6 +48,8 @@ BOOK SOURCE JSON
         for <https://m.91langwen.net>
     * [爱看书吧](booksource/yuedu/m.aikanshu8.com.json)
         for <https://m.aikanshu8.com>
+    * [米花](booksource/yuedu/m.mihua.net.json)
+        for <https://m.mihua.net>
     * [书迷楼②_arm](booksource/yuedu/m.shumil.com.json)
         for <http://m.shumil.com>
     * [土豆小说](booksource/yuedu/m.tudoutxt.cc.json)
