@@ -1,15 +1,16 @@
 BOOK SOURCE
-===========
+=============
 
-BOOK SOURCE JSON
+JSON FILE
 ----------------
 
 #####MY BOOKSOURCE#####
+
 3. [gedoor](https://gedoor.github.io/MyBookshelf/bookSource.json)
 4. [bookSources](https://booksources.github.io)
 5. [blackholep](https://blackholep.github.io/20190815set1)
 
-BOOK SOURCE PAGE
+Web Page
 ----------------
 
 1. [moonbegonia](https://moonbegonia.github.io/Source/)
