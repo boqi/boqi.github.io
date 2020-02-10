@@ -6,6 +6,8 @@ BOOK SOURCE JSON
 
 1. [阅读2.0](booksource/yuedu/booksource.json)
 
+    * [零点书院](booksource/yuedu/00sy.net.json)
+        for <https://www.00sy.net>
     * [114中文](booksource/yuedu/114zw.la.json)
         for <https://www.114zw.la>
     * [151看书](booksource/yuedu/151kanshu.com.json)
@@ -62,6 +64,8 @@ BOOK SOURCE JSON
         for <http://m.tudoutxt.cc>
     * [鱼鱼中文[手机版]](booksource/yuedu/m.yuyuzw.com.json)
         for <http://m.yuyuzw.com>
+    * [斋书苑](booksource/yuedu/m.zhaishuyuan.com.json)
+        for <https://m.zhaishuyuan.com>
     * [纵横手机版](booksource/yuedu/m.zongheng.com.json)
         for <http://m.zongheng.com>
     * [Mayafoot Archive Book](booksource/yuedu/mayafoot.com_archiver.json)
@@ -86,6 +90,8 @@ BOOK SOURCE JSON
         for <http://www.suimeng.cc>
     * [天涯书库📚](booksource/yuedu/tianyabooks.com.json)
         for <https://www.tianyabooks.com>
+    * [天幕小说](booksource/yuedu/tmshy.com.json)
+        for <https://www.tmshy.com>
     * [无名小说](booksource/yuedu/wmtxt.com.json)
         for <https://www.wmtxt.com>
     * [铅笔小说](booksource/yuedu/x23qb.com.json)
@@ -98,6 +104,8 @@ BOOK SOURCE JSON
         for <http://www.xinshuxs.com>
     * [鱼鱼中文](booksource/yuedu/yuyuzw.com.json)
         for <http://www.yuyuzw.com>
+    * [Zhaishuw.com](booksource/yuedu/zhaishuw.com.json)
+        for <https://www.zhaishuw.com>
 
 2. [阅读3.0](booksource/legado/booksource.json)
 
