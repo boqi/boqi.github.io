@@ -1,0 +1,32 @@
+[
+{
+   "ruleCoverUrl" : "class.bookpic@tag.img@src",
+   "ruleBookContent" : "id.BookText@textNodes||id.nr1@html##品書網 www.vodtW.com|请大家搜索（品%书￥￥网）看最全！更新最快的小说!|本书来自|\\＃r更新&\\#039;\\最。%快|\\\\最新章h+节ha9E@最d9新章节Z\\)|请大家搜索（品書網）看最全！更新最快的小说!|本书来自|\\＃r更新'\\\\最。%快##",
+   "ruleContentUrl" : "tag.a@href",
+   "bookSourceType" : "",
+   "ruleSearchList" : "id.Content@tag.div!0:1",
+   "bookSourceGroup" : "Sesadit; R3",
+   "ruleSearchCoverUrl" : "tag.img@src",
+   "serialNumber" : 164,
+   "ruleSearchName" : "id.CListTitle@tag.a.0@text",
+   "ruleChapterUrl" : "",
+   "bookSourceUrl" : "https://www.vodtw.com",
+   "ruleChapterUrlNext" : "",
+   "ruleBookAuthor" : "",
+   "ruleChapterList" : "tag.ul.5@tag.li",
+   "ruleChapterName" : "tag.a@text",
+   "ruleBookName" : "",
+   "ruleSearchUrl" : "https://www.vodtw.com/Book/Search.aspx@SearchFromB=all&SearchClass=1&SearchKey=searchKey|char=gbk",
+   "ruleSearchLastChapter" : "tag.a.4@text",
+   "weight" : 0,
+   "enable" : true,
+   "ruleFindUrl" : "",
+   "ruleSearchAuthor" : "id.CListTitle@tag.a.1@text",
+   "ruleIntroduce" : "class.bookintro@text",
+   "ruleSearchKind" : "id.CListTitle@tag.a.3@text",
+   "ruleContentUrlNext" : "",
+   "httpUserAgent" : "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
+   "ruleSearchNoteUrl" : "id.CListTitle@tag.a.0@href",
+   "bookSourceName" : "品书网"
+}
+]

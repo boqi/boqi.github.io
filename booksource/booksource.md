@@ -92,6 +92,8 @@ JSON FILE
         for <https://www.tianyabooks.com>
     * [天幕小说](booksource/yuedu/tmshy.com.json)
         for <https://www.tmshy.com>
+    * [品书网](booksource/yuedu/vodtw.com.json)
+        for <https://www.vodtw.com>
     * [无名小说](booksource/yuedu/wmtxt.com.json)
         for <https://www.wmtxt.com>
     * [铅笔小说](booksource/yuedu/x23qb.com.json)

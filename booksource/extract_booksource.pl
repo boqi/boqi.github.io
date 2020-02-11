@@ -32,15 +32,16 @@ $wd = "" if($wd !~ m/\//);
 chdir($wd) if($wd);
 
 sub unmerge_json {
-	my $path = shift;
 	my $json_file = shift;
-	$json_file = $path . "/" . $json_file;
+	my $exp = shift;
+	$exp = ".*" unless($exp);
 	if((!-f $json_file) or (!open FI,'<',$json_file)) {
 		print STDERR "Error reading file: <$json_file>\n";
 		return undef;
 	};
 	my $data = join("",<FI>);
 	close FI;
+	print STDERR "Open $json_file :\n";
 	my $json = $JSON->decode($data);
 	if(!$json) {
 		print STDERR "Error parsing file: <$json_file>\n";
@@ -50,12 +51,13 @@ sub unmerge_json {
 	if($type eq 'HASH') {
 		$json = [$json];
 	}
-
+	
 	foreach my $s (@$json) {
 		my $g = $s->{bookSourceGroup};
 		my $n = $s->{bookSourceName};
 		my $u = $s->{bookSourceUrl};
 		next unless($g =~ m/Sesadit/i);
+		next unless($u =~ $exp);
 		my $output = $u;
 		$output =~ s/^https?:\/\///i;
 		$output =~ s/^w+\.([^\/]+)\.(.+)/$1.$2/;
@@ -63,7 +65,10 @@ sub unmerge_json {
 		$output =~ s/_+$//;
 		$output =~ s/[\s#\?\:]+//g;
 		$output = $output . ".json";
-		print STDERR "$json_file :\n";
+		if(-f $output) {
+			print STDERR "    [File exists] skipped $n <$output> [$g] ... \n";
+			next;
+		}
 		print STDERR "    extracting $n <$output> [$g] from $json_file ...\n";
 		if(!open FO,">",$output) {
 			print STDERR "Error writting file: <$output>\n";
@@ -75,7 +80,6 @@ sub unmerge_json {
 	}
 }
 
-unmerge_json("backups","myBookSource.json");
-unmerge_json("picsource/backups","myBookSource.json");
+unmerge_json(@ARGV);
 
 
