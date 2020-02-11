@@ -1,11 +1,12 @@
 #!/usr/bin/env perl 
 #===============================================================================
 #
-#         FILE: json2.pl
+#         FILE: json_from_legado.pl
 #
-#        USAGE: ./json2.pl  
+#        USAGE: ./json_from_legado.pl  <filenames>
 #
-#  DESCRIPTION: 
+#  DESCRIPTION: 将legado(3.0)的书源，转换为yuedu(2.0)的书源。
+#               原文件应在不同的目录，否则不会执行。
 #
 #      OPTIONS: ---
 # REQUIREMENTS: ---
@@ -26,8 +27,8 @@ my $js = JSON->new();
 
 my %CONV = (
 	"TEXT" => {
-		"{{key}}"=>"searchKey",
-		"{{page}}"=>"searchPage",
+		"\\{\\{key\\}\\}"=>"searchKey",
+		"\\{\\{page\\}\\}"=>"searchPage",
 	},
 	"header" => {
 		"User-Agent" => "httpUserAgent",
@@ -90,21 +91,30 @@ sub convert {
 			}
 			return;
 		}
-		else {
-			$value =~ s/\{\{key\}\}/searchKey/g;
-			$value =~ s/\{\{page\}\}/searchPage/g;
-			$r->{$conv} = $value;
+		elsif($value =~ m/^(.+?)\s*,\s*\{(.+)\}\s*$/s){#3.0 URL
+			my $baseurl = $1;
+			my $header = $2;
+			$header = $js->decode('{' . $header . '}');
+			if($header->{method} and lc($header->{method}) eq 'post') {
+				$value = $baseurl . "@" . ($header->{body} || "");
+			}
+			else {
+				$value = $baseurl . "?" . ($header->{body} || "");
+			}
+			if($header->{charset}) {
+				$value = $value . "|char=" . $header->{charset};
+			}
+		}
+		$key = $conv;
+	}
+	if($value) {
+		foreach my $exp (keys %{$CONV{TEXT}}) {
+			$value =~ s/$exp/$CONV{TEXT}->{$exp}/g;
 		}
 	}
-	else {
-		if($value) {
-			$value =~ s/\{\{key\}\}/searchKey/g;
-			$value =~ s/\{\{page\}\}/searchPage/g;
-		}
-		$r->{$key} = $value;
-	}
+	$r->{$key} = $value;
 	print STDERR "       \$key => $key\n";
-	print STDERR "       \$value => $value\n";	
+	print STDERR "       \$value => " . ($value || "") . "\n";	
 }
 
 
