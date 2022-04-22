@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <boolean name="auto_refresh" value="false" />
+    <int name="textDrawableIndex" value="3" />
+    <float name="textLetterSpacing" value="0.0" />
+    <float name="lineMultiplier" value="1.8" />
+    <boolean name="showAllFind" value="false" />
+    <long name="DonateHb" value="0" />
+    <string name="bgPath3">bg/宁静夜色.jpg</string>
+    <int name="paddingBottom" value="15" />
+    <int name="screenDirection" value="1" />
+    <string name="downloadPath">/storage/emulated/0/Android/data/com.gedoor.monkeybook/cache</string>
+    <string name="backupPath">content://com.android.externalstorage.documents/tree/primary%3APictures%2FBackups%2Fyuedu</string>
+    <float name="paragraphSize" value="2.0" />
+    <boolean name="darkStatusIcon3" value="false" />
+    <int name="threads_num" value="6" />
+    <int name="paddingTop" value="15" />
+    <string name="fontPath">/storage/emulated/0/Fonts/SourceHanSerifCN-Regular-1.otf</string>
+    <int name="bookshelfGroup" value="0" />
+    <int name="webPort" value="1122" />
+    <boolean name="upChangeSourceLastChapter" value="false" />
+    <string name="bookshelf_px">0</string>
+    <int name="bgCustom3" value="3" />
+    <int name="textSize" value="17" />
+    <boolean name="autoDownload" value="false" />
+    <boolean name="process_text" value="true" />
+    <int name="bgColor3" value="-14803426" />
+    <int name="versionCode" value="15771" />
+    <boolean name="findTypeIsFlexBox" value="true" />
+    <string name="web_dav_url">https://dav.jianguoyun.com/dav/</string>
+    <boolean name="lightFollowSys" value="true" />
+    <boolean name="textBold" value="false" />
+    <int name="textColor3" value="-1" />
+    <string name="web_dav_account">eotect@163.com</string>
+    <string name="web_dav_password">a93pn7x7sm8vsyka</string>
+    <boolean name="defaultToRead" value="false" />
+    <boolean name="replaceEnableDefault" value="true" />
+    <boolean name="canKeyTurn" value="true" />
+</map>
