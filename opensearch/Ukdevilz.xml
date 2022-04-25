@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
                        xmlns:moz="http://www.mozilla.org/2006/browser/search/">
-  <!-- Created on Fri, 22 Apr 2022 17:36:57 GMT -->
+  <!-- Created on Fri, 22 Apr 2022 18:11:59 GMT -->
   <ShortName>Ukdevilz</ShortName>
   <Description>Search Ukdevilz</Description>
   <Url type="text/html" method="get" template="https://18.ukdevilz.com/video/{searchTerms}"/>
   <Image width="16" height="16" type="image/x-icon">https://18.ukdevilz.com/static/engine/extend/dark/favicon.ico</Image>
+  <Developer>Eotect</Developer>
   <InputEncoding>UTF-8</InputEncoding>
-  <moz:SearchForm>https://18.ukdevilz.com</moz:SearchForm>
+  <moz:SearchForm>https://18.ukdevilz.com/new-video</moz:SearchForm>
   <!-- <Url type="application/opensearchdescription+xml" rel="self" template="GENERATEDLATER"/> -->
 </OpenSearchDescription>

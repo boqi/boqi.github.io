@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <!-- Created on Fri, 22 Apr 2022 18:15:09 GMT -->
+  <ShortName>Yandex Video</ShortName>
+  <Description>Yandex Video</Description>
+  <Url type="text/html" method="get" template="https://yandex.com/video/search?text={searchTerms}"/>
+  <Url type="application/x-suggestions+json" template="http://suggest.yandex.ru/suggest-ff.cgi?part={searchTerms}"/>
+  <!-- <Image width="16" height="16">GENERATEDLATER</Image> -->
+  <Developer>Eotect</Developer>
+  <InputEncoding>UTF-8</InputEncoding>
+  <moz:SearchForm>http://www.yandex.com/video</moz:SearchForm>
+  <!-- <Url type="application/opensearchdescription+xml" rel="self" template="GENERATEDLATER"/> -->
+</OpenSearchDescription>
