@@ -1,0 +1,58 @@
+[{
+    "bookSourceUrl": "http://www.adshu.cc",
+    "bookSourceType": "0",
+    "bookSourceName": "沙迦小说(adshu.cc)",
+    "bookSourceGroup": "nsfw,Sesadit",
+    "bookSourceComment": "",
+    "loginUrl": "",
+    "loginUi": "",
+    "loginCheckJs": "",
+    "concurrentRate": "",
+    "header": "",
+    "bookUrlPattern": "",
+    "searchUrl": "/book.php?action=search&searchtype=novelname&searchkey={{key}}&page={{page}},{\"charset\":\"gbk\"}",
+    "exploreUrl": "玄幻奇幻::/qihuan/{{page}}.html\n仙侠修真::/xiuzhen/{{page}}.html\n言情总裁::/yanqing/{{page}}.html\n都市现代::/xiandai/{{page}}.html\n科幻未来::/weilai/{{page}}.html\n网络游戏::/wangyou/{{page}}.html\n青春校园::/qingchun/{{page}}.html\n军事历史::/junshi/{{page}}.html\n恐怖悬疑::/xuanyi/{{page}}.html\n穿越重生::/chuanyue/{{page}}.html\n今日更新::/novel/update.html\n上架新书::/novel/new_books.html\n总点击榜::/novel/click.html\n总收藏榜::/novel/favorite.html\n总推荐榜::/novel/like.html\n总评分榜::/novel/score.html\n月点击榜::/novel/month_click.html\n周点击榜::/novel/week_click.html\n月推荐榜::/novel/month_like.html\n周推荐榜::/novel/week_like.html\n总字数榜::/novel/count.html\n评分人数::/novel/all_score.html\n打赏人数::/novel/all_largess.html\n打赏::/novel/largess.html",
+    "enabled": true,
+    "enabledExplore": true,
+    "weight": 0,
+    "customOrder": -88963978,
+    "lastUpdateTime": 1666204690876,
+    "ruleSearch": {
+        "bookList": "class.ss_box",
+        "name": "class.sp_bookname@tag.a.0@text",
+        "author": "class.sp_name@text##[^\\/]*\\/\\s*##",
+        "lastChapter": "tag.h4@text##最新章节：##",
+        "intro": "class.jj_txt@text",
+        "coverUrl": "class.sp_name@tag.a.0@href##^.*\\/book\\/(\\d+)(\\d\\d\\d)\\.html$##//img.adshu.cc/$1/$1$2.jpg",
+        "bookUrl": "class.sp_menu@tag.a.0@href"
+    },
+    "ruleExplore": {
+        "bookList": "class.book||class.lists@tag.dl.!0",
+        "name": "class.book_info@tag.h2@tag.a@text||tag.dt@tag.a.0@title##最新章节##",
+        "author": "class.book_info@tag.p.0@tag.a.0@text||class.author@tag.a.0@title##最新作品##",
+        "kind": "class.pic@tag.span@text||class.sort@tag.a.0@text",
+        "wordCount": "class.pic@tag.span@text||class.fullflag@text",
+        "lastChapter": "class.book_info@id.new_chapter@tag.a.p@text||tag.dt@tag.a.1@text",
+        "intro": "class.book_info@tag.p.-1@tag.a.0@text",
+        "coverUrl": "class.book_info@tag.a.-1@href||tag.dt@tag.a.0@href##^.*\\/book\\/(\\d+)(\\d\\d\\d)\\.html$##//img.adshu.cc/$1/$1$2.jpg",
+        "bookUrl": "class.book_info@tag.h2@tag.a@href||tag.dt@tag.a.0@href##\\/book\\/(\\d+)\\.html$##/$1/"
+    },
+    "ruleBookInfo": {
+        "name": "tag.h1@tag.a@text",
+        "author": "class.article@tag.span@text##/作者：##",
+        "kind": "class.navlist@tag.a.1@text",
+        "lastChapter": "tag.dd.0@tag.a@text",
+        "intro": "class.intro@tag.p.0@text",
+        "coverUrl": "class.cover@tag.img@src"
+    },
+    "ruleToc": {
+        "chapterList": "class.list.-1@tag.dd@tag.a&&class.haoshu@tag.a",
+        "chapterName": "<js>var a=new String(result);if(a.indexOf(\"/book/\")>=0) {a=a.replace(/.*>([^<]+)<[^<]+$/,\"[推荐阅读] $1\")} else {a=a.replace(/.*>([^<]+)<[^<]+$/,\"$1\")};a;</js>",
+        "chapterUrl": "href"
+    },
+    "ruleContent": {
+        "content": "class.chapter@tag.p@text&&class.novel_info@html",
+        "nextContentUrl": "class.chapter_go@tag.a.-1@href"
+    }
+}
+]
