@@ -1,0 +1,59 @@
+[{
+    "bookSourceUrl": "https://www.wcxsw.org",
+    "bookSourceType": "0",
+    "bookSourceName": "无错小说(wcxsw.org)",
+    "bookSourceGroup": "Selected,Sesadit",
+    "bookSourceComment": "",
+    "loginUrl": "",
+    "loginUi": "",
+    "loginCheckJs": "",
+    "concurrentRate": "",
+    "header": "",
+    "bookUrlPattern": "",
+    "searchUrl": "https://www.wcxsw.org/modules/article/search.php,{\n\"method\":\"POST\",\n\"body\":\"keyword={{key}}\"\n}",
+    "exploreUrl": "",
+    "enabled": true,
+    "enabledExplore": true,
+    "weight": 0,
+    "customOrder": 0,
+    "lastUpdateTime": 1666209355337,
+    "ruleSearch": {
+        "checkKeyWord": "灵境行者",
+        "bookList": "id.main@tag.li[1:]",
+        "name": "class.s2@text",
+        "author": "class.s4@text",
+        "kind": "class.s1@text&&class.s6@text",
+        "lastChapter": "class.s3@text",
+        "coverUrl": "a@href@js:\nvar id = new String(result);\nvar a = id.match(/\\/(\\d+)\\//);\nif(a) {\n    id = a[1];\n}\nelse {\n    id = 0;\n}\nvar xid = Math.floor(id/1000);\n\"/image/\" + xid + \"/\" + id + \"/\" + id + \"s.jpg\";",
+        "bookUrl": "a@href"
+    },
+    "ruleExplore": {
+        "bookList": ".item&&.r li&&.l li",
+        "name": ".s2@text||tag.img@alt",
+        "author": "dt span@text||.s5@text",
+        "lastChapter": "s3@text",
+        "intro": "dl dd@text",
+        "coverUrl": "a@href@js:\nvar id = new String(result);\nvar a = id.match(/\\/(\\d+)\\//);\nif(a) {\n    id = a[1];\n}\nelse {\n    id = 0;\n}\nvar xid = Math.floor(id/1000);\n\"/image/\" + xid + \"/\" + id + \"/\" + id + \"s.jpg\";",
+        "bookUrl": "a@href"
+    },
+    "ruleBookInfo": {
+        "name": "[property=\"og:novel:book_name\"]@content",
+        "author": "[property=\"og:novel:author\"]@content",
+        "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content##\\s.*",
+        "wordCount": "##字数.([^<]+)<##$1###",
+        "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+        "intro": "[property=\"og:description\"]@content##(^|[。！？]+[”」）】]?)##$1<br>",
+        "coverUrl": "[property=\"og:image\"]@content"
+    },
+    "ruleToc": {
+        "chapterList": "id.list@tag.dd[15:]",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "ruleContent": {
+        "content": "id.content@html",
+        "nextContentUrl": "text.下一页@href",
+        "replaceRegex": "##lingdiankanshu.com##"
+    }
+}
+]

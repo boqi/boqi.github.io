@@ -123,6 +123,8 @@ JSON FILE
         for <https://www.shanjue.me>
     * [天幕小说](booksource/legado/tmshy.com.json)
         for <https://www.tmshy.com>
+    * [无错小说(wcxsw.org)](booksource/legado/wcxsw.org.json)
+        for <https://www.wcxsw.org>
     * [Zhaishuw.com](booksource/legado/zhaishuw.com.json)
         for <https://www.zhaishuw.com>
 
