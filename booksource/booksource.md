@@ -113,8 +113,14 @@ JSON FILE
 
     * [零点书院](booksource/legado/00sy.net.json)
         for <https://www.00sy.net>
+    * [沙迦小说(adshu.cc)](booksource/legado/adshu.cc.json)
+        for <http://www.adshu.cc>
+    * [懒人小说(lrxs.org)](booksource/legado/lrxs.org.json)
+        for <http://www.lrxs.org/>
     * [斋书苑](booksource/legado/m.zhaishuyuan.com.json)
         for <https://m.zhaishuyuan.com>
+    * [闪爵小说(Shanjue.me)](booksource/legado/shanjue.me.json)
+        for <https://www.shanjue.me>
     * [天幕小说](booksource/legado/tmshy.com.json)
         for <https://www.tmshy.com>
     * [Zhaishuw.com](booksource/legado/zhaishuw.com.json)
