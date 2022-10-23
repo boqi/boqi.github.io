@@ -22,19 +22,31 @@ use strict;
 use warnings;
 use utf8;
 
-my $text;
-while(<>) {
+my $use_style = shift;
+my $style='{"layout_flexGrow":0,"layout_wrapBefore": false}';
+
+my @text;
+while(<STDIN>) {
 	chomp;
 	s/&amp;/&/g;
-	$text = $text . $_;
+	push @text,$_;
 }
-my $style='{"layout_flexGrow":0,"layout_wrapBefore": false}';
-print "[\n";
+my $text = join("",@text);
+if($use_style) {
+	print "[";
+};
 	while($text =~ m/href\s*=\s*(['"])(.+?)\1[^>]*>(.+?)<\/a/g) {
 		#		print join("\n","1:$1","2:$2","3:$3"),"\n";
 		my $u = $2;
 		my $t = $3;
 		$t =~ s/<[^>]*>//g;
-		print "{\"title\":\"$3\",\"url\":\"$u\",\"style\":$style},\n"
+		if($use_style) {
+			print "\n{\"title\":\"$3\",\"url\":\"$u\",\"style\":$style},"
+		}
+		else {
+			print "$3::$u\n";
+		}
 	}
-print "]\n";
+if($use_style) {
+	print "\b\n]\n";
+}

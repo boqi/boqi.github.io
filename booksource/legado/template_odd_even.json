@@ -1,0 +1,61 @@
+{
+    "bookSourceUrl": "http://www.mugua2.com",
+    "bookSourceType": "0",
+    "bookSourceName": "木瓜小说(mugua2.com)",
+    "bookSourceGroup": "Sesadit,Selected,nsfw,202210,template_odd_even",
+    "bookSourceComment": "",
+    "loginUrl": "",
+    "loginUi": "",
+    "loginCheckJs": "",
+    "concurrentRate": "",
+    "header": "",
+    "bookUrlPattern": "",
+    "searchUrl": "/book/search?keyword={{key}}&page={{page}}",
+    "exploreUrl": "玄幻::/dir1/{{page}}.html\n武侠::/dir4/{{page}}.html\n言情::/dir8/{{page}}.html\n穿越::/dir15/{{page}}.html\n耽美::/dir18/{{page}}.html\n恐怖::/dir26/{{page}}.html\n网络::/dir30/{{page}}.html\n短篇::/dir31/{{page}}.html\n最近更新::/top/genxin/{{page}}\n全本小说::/top/quanben/{{page}}\n热门排行::/top/remen/{{page}}\n收藏排行::/top/fav/{{page}}\n点赞排行::/top/zan/{{page}}\n全部列表::/book/map/page/{{page}}.html",
+    "enabled": true,
+    "enabledExplore": true,
+    "weight": 0,
+    "customOrder": 1,
+    "lastUpdateTime": 1666549576406,
+    "ruleSearch": {
+        "bookList": "div.book-coverlist||div#main table.grid tr[1:]||div.item",
+        "name": "img.thumbnail@alt||div.image@img@alt||td.odd[0]@text##(?:免费阅读全文|免费阅读)$",
+        "author": "small@text||div.btm@a.0@title||td.odd[1]@text## / 著.*",
+        "kind": "em.1@text||td.odd[2],td.even[2]@text##(-\\d+).*$##$1更新",
+        "wordCount": "em.0@text||td.even[1]@text",
+        "lastChapter": "td.even.0@text",
+        "intro": "dd@text",
+        "coverUrl": "img.thumbnail@src||div.image@img@src||td.odd a[0]@href@js:\nvar cover=new String(result);\nvar a = cover.match(/\\/(\\d+)\\.html$/);\nif(a) {\n    var id = a[1] - 23;\n  var xid = Math.floor(id/1000);\n  cover = book.origin + \"/cover/\" + xid + \"/\" + id + \".jpg\";\n}\ncover;",
+        "bookUrl": "h4>a@href||div.image@a.0@href||td.odd a[0]@href"
+    },
+    "ruleExplore": {
+        "bookList": "div.book-coverlist||div#articlelist ul[1]@li||div#newscontent div.l ul>li||div.novelslistss ul>li||div.l div.item||div.main>div.box>ul>li||div.uplist div#tlist ul.titlelist>li",
+        "name": "img.thumbnail@alt||span.l2@text||div.zp@text||div.image img@alt||class.blue@tag.a@text||.s2@text||tag.img@alt||tag.a@text##(?:免费阅读全文|免费阅读)$",
+        "author": "small@text||span.l3@text||div.author@text||div.btm@textNodes||dt span@text||.s4@text||.s5@text||tag.a.-1@text##(?: / 著.*|^[\\d\\-]+)$",
+        "kind": "span.l1,span.l7@text||span.s1,span.s6,span.s7@text##(?:[\\[\\]]+|^[\\d\\-]+$)",
+        "wordCount": "span.l5@text||div.btm em[0]@text",
+        "lastChapter": "div.zz@text||div.btm em[1]@text##$##更新",
+        "intro": "dl dd@text",
+        "coverUrl": "span.l2 a@href||div.image a[0]@href||.s2 a@href||tag.a.0@href@js:\nvar cover=new String(result);\nvar a = cover.match(/\\/(\\d+)\\.html$/);\nif(a) {\n    var id = a[1] - 23;\n  var xid = Math.floor(id/1000);\n  cover = book.origin + \"/cover/\" + xid + \"/\" + id + \".jpg\";\n}\nelse {\n cover = \"\"\n}\ncover;",
+        "bookUrl": "span.l2 a@href||div.image a[0]@href||.s2 a@href||tag.a.0@href"
+    },
+    "ruleBookInfo": {
+        "name": "[property=\"og:novel:book_name\"]@content##(?:免费阅读全文|免费阅读)$",
+        "author": "[property=\"og:novel:author\"]@content",
+        "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content##\\s.*",
+        "wordCount": "##字数.([^<]+)<##$1###",
+        "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+        "intro": "[property=\"og:description\"]@content##(^|[。！？]+[”」）】]?)##$1<br>",
+        "coverUrl": "[property=\"og:image\"]@content"
+    },
+    "ruleToc": {
+        "chapterList": "dl.panel-chapterlist[1]@dd>a||div.zjbox dl.zjlist>dd>a||div#list dl a",
+        "chapterName": "text",
+        "chapterUrl": "@onclick||@href@js:\nvar a = new String(result);\nvar b = a.match(/location\\.href\\s*=\\s*'([^']+)/);\nif(!b) {\n    b = a.match(/location\\.href\\s*=\\s*\"([^\"]+)/);\n}\nif(b) {\n    java.log(result);\n    result = b[1];\n    java.log(\"=>\" + result);\n}\nresult"
+    },
+    "ruleContent": {
+        "content": "id.htmlContent@html||id.nr1@html||id.content@html",
+        "nextContentUrl": "@css:a#pb_next[href~=_\\d+\\.html]@href",
+        "replaceRegex": "##www\\.kanqita\\.com\\s*收藏不迷路！|发布地址:.*|-->>.*\\n|<\\/ref=\"http:>|本书首发来自17k，第一时间看正版内容！|/td\\s*\\n|/tr\\s*"
+    }
+}

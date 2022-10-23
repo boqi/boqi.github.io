@@ -1,0 +1,59 @@
+{
+    "bookSourceUrl": "http://www.hehua2.com",
+    "bookSourceType": "0",
+    "bookSourceName": "荷花小说(hehua2.com)",
+    "bookSourceGroup": "Sesadit,Selected,nsfw,202210,template_odd_even",
+    "bookSourceComment": "",
+    "loginUrl": "",
+    "loginUi": "",
+    "loginCheckJs": "",
+    "concurrentRate": "",
+    "header": "",
+    "bookUrlPattern": "",
+    "searchUrl": "/book/search?keyword={{key}}&page={{page}}",
+    "exploreUrl": "最新::/top/gengxin/{{page}}.html\n热门::/top/remen/{{page}}.html\n玄幻奇幻::/fenlei1/{{page}}.html\n武侠仙侠::/fenlei4/{{page}}.html\n都市言情::/fenlei8/{{page}}.html\n都市::/fenlei9/{{page}}.html\n言情::/fenlei10/{{page}}.html\n青春校园::/fenlei12/{{page}}.html\n古代言情::/fenlei13/{{page}}.html\n穿越历史::/fenlei15/{{page}}.html\n穿越::/fenlei16/{{page}}.html\n历史::/fenlei17/{{page}}.html\n网游竞技::/fenlei22/{{page}}.html\n科幻::/fenlei25/{{page}}.html\n恐怖悬疑::/fenlei26/{{page}}.html\n恐怖::/fenlei27/{{page}}.html\n轻::/fenlei30/{{page}}.html\n短篇::/fenlei31/{{page}}.html",
+    "enabled": true,
+    "enabledExplore": true,
+    "weight": 0,
+    "customOrder": 1,
+    "lastUpdateTime": 1666468725173,
+    "ruleSearch": {
+        "bookList": "class.grid@tag.tr.!0||id.nr||class.box_con",
+        "name": "td.odd.0@text||h1@text##(?:免费阅读全文|免费阅读)$",
+        "author": "td.odd.1@text||id.info@tag.p.0@text",
+        "kind": "td.even.2@text&&td.odd.2@text##(-\\d+)$##$1更新",
+        "wordCount": "td.even.1@text",
+        "lastChapter": "td.even.0@text",
+        "coverUrl": "tag.td.0@a@href@js:\nvar cover=new String(result);\nvar a = cover.match(/\\/(\\d+)\\.html$/);\nif(a) {\n  var id = a[1] - 8;\n  var xid = Math.floor(id/1000);\n  cover = book.origin + \"/cover/\" + xid + \"/\" + id + \".jpg\";\n}\nelse {\n    cover = \"\";\n}\ncover;",
+        "bookUrl": "tag.td.0@a@href"
+    },
+    "ruleExplore": {
+        "bookList": "div#newscontent ul>li||div.novelslistss ul>li",
+        "name": "class.blue@tag.a@text||.s2@text||tag.img@alt||tag.a@text##(?:免费阅读全文|免费阅读)$",
+        "author": "dt span@text||.s4@text||.s5@text||tag.a.-1@text##^[\\d\\-]+$",
+        "kind": "span.s1,span.s6,span.s7@text##(?:[\\[\\]]+|^[\\d\\-]+$)",
+        "lastChapter": ".s3@text",
+        "intro": "dl dd@text",
+        "coverUrl": ".s2 a@href@js:\nvar cover=new String(result);\nvar a = cover.match(/\\/(\\d+)\\.html$/);\nif(a) {\n    var id = a[1] - 8;\n  var xid = Math.floor(id/1000);\n  cover = book.origin + \"/cover/\" + xid + \"/\" + id + \".jpg\";\n}\nelse {\n cover = \"\"\n}\ncover;",
+        "bookUrl": ".s2 a@href"
+    },
+    "ruleBookInfo": {
+        "name": "[property=\"og:novel:book_name\"]@content##(?:免费阅读全文|免费阅读)$",
+        "author": "[property=\"og:novel:author\"]@content",
+        "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content##\\s.*",
+        "wordCount": "##字数.([^<]+)<##$1###",
+        "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+        "intro": "[property=\"og:description\"]@content##(^|[。！？]+[”」）】]?)##$1<br>",
+        "coverUrl": "[property=\"og:image\"]@content"
+    },
+    "ruleToc": {
+        "chapterList": "div#list dl>dd",
+        "chapterName": "tag.a.0@text",
+        "chapterUrl": "tag.a.0@onclick||tag.a.0@href@js:\nvar a = new String(result);\nvar b = a.match(/location\\.href\\s*=\\s*'([^']+)/);\nif(!b) {\n    b = a.match(/location\\.href\\s*=\\s*\"([^\"]+)/);\n}\nif(b) {\n    java.log(result);\n    result = b[1];\n    java.log(\"=>\" + result);\n}\nresult"
+    },
+    "ruleContent": {
+        "content": "id.nr1||id.content@html",
+        "nextContentUrl": "@css:a#pb_next[href~=_\\d+\\.html]@href",
+        "replaceRegex": "##www\\.kanqita\\.com\\s*收藏不迷路！|发布地址:.*|-->>.*\\n|<\\/ref=\"http:>"
+    }
+}

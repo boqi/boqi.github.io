@@ -1,0 +1,47 @@
+{
+    "bookSourceUrl": "http://www.heye520.com",
+    "bookSourceType": "0",
+    "bookSourceName": "荷叶小说(heye520.com)",
+    "bookSourceGroup": "Selected,Sesadit",
+    "bookSourceComment": "",
+    "loginUrl": "",
+    "loginUi": "",
+    "loginCheckJs": "",
+    "concurrentRate": "",
+    "header": "",
+    "bookUrlPattern": "",
+    "searchUrl": "http://www.heye520.com/book/search,{\"method\":\"POST\",\"body\":\"keyword={{key}}\"}",
+    "exploreUrl": "[\n{\"title\":\"最新\",\"url\":\"/top/gengxin/{{page}}.html\",\"style\":{\"layout_flexGrow\":0,\"layout_wrapBefore\": false}},\n{\"title\":\"热门\",\"url\":\"/top/remen/{{page}}.html\",\"style\":{\"layout_flexGrow\":0,\"layout_wrapBefore\": false}},\n{\"title\":\"玄幻\",\"url\":\"/sort1/{{page}}.html\",\"style\":{\"layout_flexGrow\":0,\"layout_wrapBefore\": false}},\n{\"title\":\"武侠\",\"url\":\"/sort4/{{page}}.html\",\"style\":{\"layout_flexGrow\":0,\"layout_wrapBefore\": false}},\n{\"title\":\"言情\",\"url\":\"/sort8/{{page}}.html\",\"style\":{\"layout_flexGrow\":0,\"layout_wrapBefore\": false}},\n{\"title\":\"都市\",\"url\":\"/sort9/{{page}}.html\",\"style\":{\"layout_flexGrow\":0,\"layout_wrapBefore\": false}},\n{\"title\":\"青春\",\"url\":\"/sort12/{{page}}.html\",\"style\":{\"layout_flexGrow\":0,\"layout_wrapBefore\": false}},\n{\"title\":\"古代\",\"url\":\"/sort13/{{page}}.html\",\"style\":{\"layout_flexGrow\":0,\"layout_wrapBefore\": false}},\n{\"title\":\"穿越\",\"url\":\"/sort15/{{page}}.html\",\"style\":{\"layout_flexGrow\":0,\"layout_wrapBefore\": false}},\n{\"title\":\"网游\",\"url\":\"/sort22/{{page}}.html\",\"style\":{\"layout_flexGrow\":0,\"layout_wrapBefore\": false}},\n{\"title\":\"科幻\",\"url\":\"/sort25/{{page}}.html\",\"style\":{\"layout_flexGrow\":0,\"layout_wrapBefore\": false}},\n{\"title\":\"恐怖\",\"url\":\"/sort26/{{page}}.html\",\"style\":{\"layout_flexGrow\":0,\"layout_wrapBefore\": false}},\n{\"title\":\"轻小说\",\"url\":\"/sort30/{{page}}.html\",\"style\":{\"layout_flexGrow\":0,\"layout_wrapBefore\": false}}\n]\n",
+    "enabled": true,
+    "enabledExplore": true,
+    "weight": 0,
+    "customOrder": 0,
+    "lastUpdateTime": 1666385566711,
+    "ruleSearch": {
+        "bookList": ".l2box",
+        "name": ".l2pic img@alt",
+        "author": ".l2info a.0@text",
+        "wordCount": ".l2info@text##^.*大小：([^\\s]+).*$##$1",
+        "intro": ".l2intr@text",
+        "coverUrl": ".l2pic img@src",
+        "bookUrl": ".l2pic a@href"
+    },
+    "ruleExplore": {},
+    "ruleBookInfo": {
+        "name": "@css:*[property=\"og:novel:book_name\"]@content",
+        "author": "@css:*[property=\"og:novel:author\"]@content",
+        "kind": "class.listl@tag.td[1,6]@text",
+        "wordCount": "class.listl@tag.td[10]@text",
+        "lastChapter": "div.listl>a@text",
+        "intro": "*[property=\"og:description\"]@content",
+        "coverUrl": "*[property=\"og:image\"]@content"
+    },
+    "ruleToc": {
+        "chapterList": "div.iindex ul>li>a",
+        "chapterName": "text",
+        "chapterUrl": "href"
+    },
+    "ruleContent": {
+        "content": ".text@textNodes"
+    }
+}
