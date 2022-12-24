@@ -1,4 +1,4 @@
-{
+[{
     "bookSourceUrl": "https://www.wcxsw.org",
     "bookSourceType": "0",
     "bookSourceName": "无错小说(wcxsw.org)",
@@ -57,3 +57,4 @@
         "replaceRegex": "##lingdiankanshu.com##"
     }
 }
+]

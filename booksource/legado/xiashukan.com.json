@@ -1,0 +1,60 @@
+[{
+    "bookSourceUrl": "http://www.xiashukan.com",
+    "bookSourceType": "0",
+    "bookSourceName": "下书看(xiashukan.com)",
+    "bookSourceGroup": "Sesadit,Selected,nsfw",
+    "bookSourceComment": "",
+    "loginUrl": "",
+    "loginUi": "",
+    "loginCheckJs": "",
+    "concurrentRate": "",
+    "header": "",
+    "bookUrlPattern": "",
+    "searchUrl": "http://www.xiashukan.com/s.php?keyword={{key}}",
+    "exploreUrl": "[\n{\"title\":\"首页\",\"url\":\"/\",\"style\":{\"layout_flexGrow\":1,\"layout_wrapBefore\": true}},\n{\"title\":\"玄幻奇幻\",\"url\":\"/list/{{page}}/\",\"style\":{\"layout_flexGrow\":0,\"layout_wrapBefore\": true}},\n{\"title\":\"修真武侠\",\"url\":\"/list/2/\",\"style\":{\"layout_flexGrow\":0,\"layout_wrapBefore\": false}},\n{\"title\":\"都市言情\",\"url\":\"/list/3/\",\"style\":{\"layout_flexGrow\":0,\"layout_wrapBefore\": false}},\n{\"title\":\"穿越小说\",\"url\":\"/list/4/\",\"style\":{\"layout_flexGrow\":0,\"layout_wrapBefore\": false}},\n{\"title\":\"网游小说\",\"url\":\"/list/5/\",\"style\":{\"layout_flexGrow\":0,\"layout_wrapBefore\": false}},\n{\"title\":\"科幻小说\",\"url\":\"/list/6/\",\"style\":{\"layout_flexGrow\":0,\"layout_wrapBefore\": false}},\n{\"title\":\"女生言情\",\"url\":\"/list/7/\",\"style\":{\"layout_flexGrow\":0,\"layout_wrapBefore\": false}},\n{\"title\":\"其它类型\",\"url\":\"/list/8/\",\"style\":{\"layout_flexGrow\":0,\"layout_wrapBefore\": false}},\n{\"title\":\"完本小说\",\"url\":\"/wanben/\",\"style\":{\"layout_flexGrow\":0,\"layout_wrapBefore\": false}},\n]\n",
+    "enabled": true,
+    "enabledExplore": true,
+    "weight": 0,
+    "customOrder": -88963991,
+    "lastUpdateTime": 1671898816941,
+    "ruleSearch": {
+        "bookList": "div.bookbox[0:99]",
+        "name": "h4.bookname@tag.a.0@text",
+        "author": ".author@text##作者：",
+        "kind": "td.even.2@text&&td.odd.2@text##(-\\d+)$##$1更新",
+        "wordCount": "td.even.1@text",
+        "lastChapter": ".update@tag.a.0@text",
+        "intro": "p@text",
+        "coverUrl": ".bookimg@tag.img.0@src",
+        "bookUrl": "h4.bookname@tag.a.0@href"
+    },
+    "ruleExplore": {
+        "bookList": "div.item&&div.up ul>li",
+        "name": "div.p10@tag.a.1@text||span.s2@text",
+        "author": "div.p10@tag.span.0@text||span.s4@text",
+        "kind": "span.s1@text||span.s5@text",
+        "lastChapter": "span.s3@text",
+        "intro": "div.p10@tag.dd@text",
+        "coverUrl": "div.image@tag.img.0@src||tag.a.0@href@js:\nvar cover=new String(result);\nvar a = cover.match(/\\/book\\/(\\d+)/);\nif(a) {\n    var id = a[1] -0;\n  var xid = Math.floor(id/1000);\n  cover = \"http://img.xiashukan.com/article/image/\" + xid + \"/\" + id + \"/\" +  id + \"s.jpg\";\n}\ncover;",
+        "bookUrl": "tag.a.0@href"
+    },
+    "ruleBookInfo": {
+        "name": "[property=\"og:novel:book_name\"]@content",
+        "author": "[property=\"og:novel:author\"]@content",
+        "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content##(:?^\\d+$|\\s.*)",
+        "wordCount": "##字数.([^<]+)<##$1###",
+        "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+        "intro": "div#intro@text||div.intro_info@text||[property=\"og:description\"]@content##(?:(.+)最新章节由网友提供，《\\1》情节跌宕起伏、扣人心弦，是一本情节与文笔俱佳的.*?,.*?免费提供\\1最新清爽干净的文字章节在线阅读。|【 地址发布:.+?收藏以备不时之需 】)",
+        "coverUrl": "[property=\"og:image\"]@content"
+    },
+    "ruleToc": {
+        "chapterList": "div.listmain dd a",
+        "chapterName": "text",
+        "chapterUrl": "href",
+        "nextTocUrl": "text.下一页@href"
+    },
+    "ruleContent": {
+        "content": "div#content@html"
+    }
+}
+]

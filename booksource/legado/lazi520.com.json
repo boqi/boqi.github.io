@@ -1,4 +1,4 @@
-{
+[{
     "bookSourceUrl": "http://www.lazi520.com",
     "bookSourceType": "0",
     "bookSourceName": "辣子小说(lazi520.com)",
@@ -59,3 +59,4 @@
         "replaceRegex": "##www\\.kanqita\\.com\\s*收藏不迷路！|发布地址:.*|-->>.*\\n|<\\/ref=\"http:>|本书首发来自17k，第一时间看正版内容！|/td\\s*\\n|/tr\\s*"
     }
 }
+]

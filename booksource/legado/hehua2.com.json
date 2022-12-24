@@ -1,4 +1,4 @@
-{
+[{
     "bookSourceUrl": "http://www.hehua2.com",
     "bookSourceType": "0",
     "bookSourceName": "荷花小说(hehua2.com)",
@@ -57,3 +57,4 @@
         "replaceRegex": "##www\\.kanqita\\.com\\s*收藏不迷路！|发布地址:.*|-->>.*\\n|<\\/ref=\"http:>"
     }
 }
+]

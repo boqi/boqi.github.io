@@ -31,20 +31,26 @@ while(<STDIN>) {
 	s/&amp;/&/g;
 	push @text,$_;
 }
-my $text = join("",@text);
+my $text = join("\n",@text);
 if($use_style) {
 	print "[";
 };
-	while($text =~ m/href\s*=\s*(['"])(.+?)\1[^>]*>(.+?)<\/a/g) {
-		#		print join("\n","1:$1","2:$2","3:$3"),"\n";
+	while($text =~ m/href\s*=\s*(['"])(.+?)\1[^>]*>(.+?)<\/a|([^\r\n\s\f]+?)::([^\f\r\n\s]+)/g) {
+		#print join("\n","1:$1","2:$2","3:$3"),"\n";
 		my $u = $2;
 		my $t = $3;
+		if($4) {
+			$t = $4;
+			$u = $5;
+		}
 		$t =~ s/<[^>]*>//g;
+		$u =~ s/\/1(\/?)$/\/{{page}}$1/;
+		$u =~ s/\/1\.html$/\/{{page}}.html/;
 		if($use_style) {
-			print "\n{\"title\":\"$3\",\"url\":\"$u\",\"style\":$style},"
+			print "\n{\"title\":\"$t\",\"url\":\"$u\",\"style\":$style},"
 		}
 		else {
-			print "$3::$u\n";
+			print "${t}::${u}\n";
 		}
 	}
 if($use_style) {

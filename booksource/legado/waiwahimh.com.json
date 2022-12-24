@@ -1,0 +1,55 @@
+[{
+    "bookSourceUrl": "https://www.waiwahimh.com",
+    "bookSourceType": "0",
+    "bookSourceName": "桃花岛小说(waiwahimh.com)",
+    "bookSourceGroup": "Sesadit,Selected,nsfw,202210,template_odd_even",
+    "bookSourceComment": "",
+    "loginUrl": "",
+    "loginUi": "",
+    "loginCheckJs": "",
+    "concurrentRate": "",
+    "header": "",
+    "bookUrlPattern": "",
+    "searchUrl": "/search?keyword={{key}}&page={{page}}",
+    "exploreUrl": "[\n\n{\"title\":\"更新\",\"url\":\"/book/renew?page={{page}}\",\"style\":{\"layout_flexGrow\":0,\"layout_wrapBefore\": false}},\n{\"title\":\"热门\",\"url\":\"/search\",\"style\":{\"layout_flexGrow\":0,\"layout_wrapBefore\": false}},\n{\"title\":\"排行\",\"url\":\"/book/rank-list?page={{page}}\",\"style\":{\"layout_flexGrow\":0,\"layout_wrapBefore\": false}},\n{\"title\":\"完结\",\"url\":\"/book/rank-list?type=finish&page={{page}}\",\"style\":{\"layout_flexGrow\":0,\"layout_wrapBefore\": false}},\n\n\n{\"title\":\"原创精品区\",\"url\":\"https://www.waiwahimh.com/book/category-list?title=原创精品区&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_wrapBefore\": true}},\n{\"title\":\"武侠玄幻\",\"url\":\"https://www.waiwahimh.com/book/category-list?title=原创精品区&tag=武侠玄幻&page={{page}}\",\"style\":{\"layout_flexGrow\":0,\"layout_wrapBefore\": true}},\n{\"title\":\"家庭乱伦\",\"url\":\"https://www.waiwahimh.com/book/category-list?title=原创精品区&tag=家庭乱伦&page={{page}}\",\"style\":{\"layout_flexGrow\":0,\"layout_wrapBefore\": false}},\n{\"title\":\"现代情缘\",\"url\":\"https://www.waiwahimh.com/book/category-list?title=原创精品区&tag=现代情缘&page={{page}}\",\"style\":{\"layout_flexGrow\":0,\"layout_wrapBefore\": false}},\n{\"title\":\"青春校园\",\"url\":\"https://www.waiwahimh.com/book/category-list?title=原创精品区&tag=青春校园&page={{page}}\",\"style\":{\"layout_flexGrow\":0,\"layout_wrapBefore\": false}},\n{\"title\":\"都市生活\",\"url\":\"https://www.waiwahimh.com/book/category-list?title=原创精品区&tag=都市生活&page={{page}}\",\"style\":{\"layout_flexGrow\":0,\"layout_wrapBefore\": false}},\n{\"title\":\"人妻熟妇\",\"url\":\"https://www.waiwahimh.com/book/category-list?title=原创精品区&tag=人妻熟妇&page={{page}}\",\"style\":{\"layout_flexGrow\":0,\"layout_wrapBefore\": false}},\n{\"title\":\"古典修真\",\"url\":\"https://www.waiwahimh.com/book/category-list?title=原创精品区&tag=古典修真&page={{page}}\",\"style\":{\"layout_flexGrow\":0,\"layout_wrapBefore\": false}},\n\n{\"title\":\"中长篇连载区\",\"url\":\"https://www.waiwahimh.com/book/category-list?title=中长篇连载区&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_wrapBefore\": true}},\n{\"title\":\"武侠玄幻\",\"url\":\"https://www.waiwahimh.com/book/category-list?title=中长篇连载区&tag=武侠玄幻&page={{page}}\",\"style\":{\"layout_flexGrow\":0,\"layout_wrapBefore\": true}},\n{\"title\":\"家庭乱伦\",\"url\":\"https://www.waiwahimh.com/book/category-list?title=中长篇连载区&tag=家庭乱伦&page={{page}}\",\"style\":{\"layout_flexGrow\":0,\"layout_wrapBefore\": false}},\n{\"title\":\"现代情缘\",\"url\":\"https://www.waiwahimh.com/book/category-list?title=中长篇连载区&tag=现代情缘&page={{page}}\",\"style\":{\"layout_flexGrow\":0,\"layout_wrapBefore\": false}},\n{\"title\":\"青春校园\",\"url\":\"https://www.waiwahimh.com/book/category-list?title=中长篇连载区&tag=青春校园&page={{page}}\",\"style\":{\"layout_flexGrow\":0,\"layout_wrapBefore\": false}},\n{\"title\":\"都市生活\",\"url\":\"https://www.waiwahimh.com/book/category-list?title=中长篇连载区&tag=都市生活&page={{page}}\",\"style\":{\"layout_flexGrow\":0,\"layout_wrapBefore\": false}},\n{\"title\":\"人妻熟妇\",\"url\":\"https://www.waiwahimh.com/book/category-list?title=中长篇连载区&tag=人妻熟妇&page={{page}}\",\"style\":{\"layout_flexGrow\":0,\"layout_wrapBefore\": false}},\n{\"title\":\"古典修真\",\"url\":\"https://www.waiwahimh.com/book/category-list?title=中长篇连载区&tag=古典修真&page={{page}}\",\"style\":{\"layout_flexGrow\":0,\"layout_wrapBefore\": false}},\n{\"title\":\"耽美同人\",\"url\":\"https://www.waiwahimh.com/book/category-list?title=中长篇连载区&tag=耽美同人&page={{page}}\",\"style\":{\"layout_flexGrow\":0,\"layout_wrapBefore\": false}},\n\n{\"title\":\"短篇故事会\",\"url\":\"https://www.waiwahimh.com/book/category-list?title=短篇故事会&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_wrapBefore\": true}},\n{\"title\":\"武侠玄幻\",\"url\":\"https://www.waiwahimh.com/book/category-list?title=短篇故事会&tag=武侠玄幻&page={{page}}\",\"style\":{\"layout_flexGrow\":0,\"layout_wrapBefore\": true}},\n{\"title\":\"家庭乱伦\",\"url\":\"https://www.waiwahimh.com/book/category-list?title=短篇故事会&tag=家庭乱伦&page={{page}}\",\"style\":{\"layout_flexGrow\":0,\"layout_wrapBefore\": false}},\n{\"title\":\"现代情缘\",\"url\":\"https://www.waiwahimh.com/book/category-list?title=短篇故事会&tag=现代情缘&page={{page}}\",\"style\":{\"layout_flexGrow\":0,\"layout_wrapBefore\": false}},\n{\"title\":\"青春校园\",\"url\":\"https://www.waiwahimh.com/book/category-list?title=短篇故事会&tag=青春校园&page={{page}}\",\"style\":{\"layout_flexGrow\":0,\"layout_wrapBefore\": false}},\n{\"title\":\"都市生活\",\"url\":\"https://www.waiwahimh.com/book/category-list?title=短篇故事会&tag=都市生活&page={{page}}\",\"style\":{\"layout_flexGrow\":0,\"layout_wrapBefore\": false}},\n{\"title\":\"人妻熟妇\",\"url\":\"https://www.waiwahimh.com/book/category-list?title=短篇故事会&tag=人妻熟妇&page={{page}}\",\"style\":{\"layout_flexGrow\":0,\"layout_wrapBefore\": false}},\n{\"title\":\"古典修真\",\"url\":\"https://www.waiwahimh.com/book/category-list?title=短篇故事会&tag=古典修真&page={{page}}\",\"style\":{\"layout_flexGrow\":0,\"layout_wrapBefore\": false}},\n{\"title\":\"耽美同人\",\"url\":\"https://www.waiwahimh.com/book/category-list?title=短篇故事会&tag=耽美同人&page={{page}}\",\"style\":{\"layout_flexGrow\":0,\"layout_wrapBefore\": false}},\n\n{\"title\":\"网络流行小说\",\"url\":\"https://www.waiwahimh.com/book/category-list?title=网络流行小说&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_wrapBefore\": true}},\n{\"title\":\"网游小说\",\"url\":\"https://www.waiwahimh.com/book/category-list?title=网络流行小说&tag=网游小说&page={{page}}\",\"style\":{\"layout_flexGrow\":0,\"layout_wrapBefore\": true}},\n{\"title\":\"科幻小说\",\"url\":\"https://www.waiwahimh.com/book/category-list?title=网络流行小说&tag=科幻小说&page={{page}}\",\"style\":{\"layout_flexGrow\":0,\"layout_wrapBefore\": false}},\n{\"title\":\"玄幻小说\",\"url\":\"https://www.waiwahimh.com/book/category-list?title=网络流行小说&tag=玄幻小说&page={{page}}\",\"style\":{\"layout_flexGrow\":0,\"layout_wrapBefore\": false}},\n{\"title\":\"灵异推理\",\"url\":\"https://www.waiwahimh.com/book/category-list?title=网络流行小说&tag=灵异推理&page={{page}}\",\"style\":{\"layout_flexGrow\":0,\"layout_wrapBefore\": false}},\n{\"title\":\"都市生活\",\"url\":\"https://www.waiwahimh.com/book/category-list?title=网络流行小说&tag=都市生活&page={{page}}\",\"style\":{\"layout_flexGrow\":0,\"layout_wrapBefore\": false}},\n{\"title\":\"历史军事\",\"url\":\"https://www.waiwahimh.com/book/category-list?title=网络流行小说&tag=历史军事&page={{page}}\",\"style\":{\"layout_flexGrow\":0,\"layout_wrapBefore\": false}},\n{\"title\":\"修真武侠\",\"url\":\"https://www.waiwahimh.com/book/category-list?title=网络流行小说&tag=修真武侠&page={{page}}\",\"style\":{\"layout_flexGrow\":0,\"layout_wrapBefore\": false}}\n]\n\n\n",
+    "enabled": true,
+    "enabledExplore": true,
+    "weight": 0,
+    "customOrder": 1025,
+    "lastUpdateTime": 1666708646822,
+    "ruleSearch": {
+        "bookList": "div.bookrack-item",
+        "name": "h3.title@text",
+        "kind": "div.btn@text",
+        "lastChapter": "p.desc@text",
+        "intro": "p.subtitle@text",
+        "coverUrl": "img.cover@data-original",
+        "bookUrl": "a.bookrack-inner@href"
+    },
+    "ruleExplore": {
+        "bookList": "div.bookrack-item||div.book_details||a.type_details_a",
+        "name": "h3.title@text||div.right_detail h4@text||div.right_box h4@text",
+        "author": "p.arist_list@text||p.dibu span[0]@text",
+        "kind": "div.btn@text||p.dibu span[1:]@text",
+        "lastChapter": "p.des@text",
+        "intro": "p.subtitle@text||div.right_detail p[0]@text||div.right_box p[0]@text",
+        "coverUrl": "img.cover@data-original||div.left_pic img.lazy@data-original||div.left_pic img@src",
+        "bookUrl": "a.bookrack-inner@href||div.right_detail a[0]@href||href"
+    },
+    "ruleBookInfo": {
+        "name": "div.story-detail__info div.title@text",
+        "author": "div.story-detail__info div.author@text",
+        "kind": "div.story-detail__info div.multi@text",
+        "intro": "div.j-desc-text@text",
+        "coverUrl": "img.cover-img@data-original||img.cover-img@src"
+    },
+    "ruleToc": {
+        "chapterList": "@js:\n    var m = src.match(/JSON.parse\\('([^']+)/);\n    var d = \"\";\n    if(m) {\n        d = JSON.parse(m[1]);\n    }\n    for(var i=0;i<d.length;i++) {\n       d[i].id = \"/book/chapter/\" + d[i].id;\n    }\n    d;",
+        "chapterName": "title",
+        "chapterUrl": "id"
+    },
+    "ruleContent": {
+        "content": "div#reader-scroll@html"
+    }
+}
+]

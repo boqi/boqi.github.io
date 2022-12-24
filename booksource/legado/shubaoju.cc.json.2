@@ -1,0 +1,41 @@
+{
+    "bookSourceUrl": "https://www.shubaoju.cc",
+    "bookSourceType": "0",
+    "bookSourceName": "第二书包网",
+    "bookSourceGroup": "Sesadit,Selected,nsfw",
+    "bookSourceComment": "",
+    "loginUrl": "",
+    "loginUi": "",
+    "loginCheckJs": "",
+    "concurrentRate": "",
+    "header": "",
+    "bookUrlPattern": "",
+    "searchUrl": "https://www.shubaoju.cc/modules/article/search.php?searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "exploreUrl": "",
+    "enabled": true,
+    "enabledExplore": true,
+    "weight": 0,
+    "customOrder": -88958789,
+    "lastUpdateTime": 1666716750205,
+    "ruleSearch": {
+        "bookList": "id.nr||class.box_con",
+        "name": "tag.td.0@text||h1@text",
+        "author": "tag.td.2@text||id.info@tag.p.0@text",
+        "lastChapter": "tag.td.1@text",
+        "bookUrl": "tag.td.0@a@href"
+    },
+    "ruleExplore": {},
+    "ruleBookInfo": {
+        "intro": "id.intro@text"
+    },
+    "ruleToc": {
+        "chapterList": "dl@dd",
+        "chapterName": "text",
+        "chapterUrl": "a@href##http.*cc@js:'https://m.shubaoju.cc'+result"
+    },
+    "ruleContent": {
+        "content": "id.nr1@html",
+        "nextContentUrl": "id.pb_next@href",
+        "replaceRegex": "##发布地址:.*|-->>.*\\n"
+    }
+}

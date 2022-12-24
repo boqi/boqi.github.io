@@ -115,16 +115,48 @@ JSON FILE
         for <https://www.00sy.net>
     * [沙迦小说(adshu.cc)](booksource/legado/adshu.cc.json)
         for <http://www.adshu.cc>
+    * [高辣小说(gaola520.com)](booksource/legado/gaola520.com.json)
+        for <http://www.gaola520.com>
+    * [荷花小说(hehua2.com)](booksource/legado/hehua2.com.json)
+        for <http://www.hehua2.com>
+    * [荷叶小说(heye520.com)](booksource/legado/heye520.com.json)
+        for <http://www.heye520.com>
+    * [红袖招(hongxiua.com)](booksource/legado/hongxiua.com.json)
+        for <https://hongxiua.com>
+    * [葵花小说(kuihuawu.net)](booksource/legado/kuihuawu.net.json)
+        for <https://www.kuihuawu.net>
+    * [辣子小说(lazi520.com)](booksource/legado/lazi520.com.json)
+        for <http://www.lazi520.com>
     * [懒人小说(lrxs.org)](booksource/legado/lrxs.org.json)
         for <http://www.lrxs.org/>
     * [斋书苑](booksource/legado/m.zhaishuyuan.com.json)
         for <https://m.zhaishuyuan.com>
+    * [米色小说(mise123.com)](booksource/legado/mise123.com.json)
+        for <http://www.mise123.com/>
+    * [木瓜小说(mugua2.com)](booksource/legado/mugua2.com.json)
+        for <http://www.mugua2.com>
+    * [新天禧小说](booksource/legado/newtianxi.com.json)
+        for <https://www.newtianxi.com>
+    * [顶点小说(qklady.com)](booksource/legado/qklady.com.json)
+        for <http://www.qklady.com>
     * [闪爵小说(Shanjue.me)](booksource/legado/shanjue.me.json)
         for <https://www.shanjue.me>
+    * [书包(shubao94.com)](booksource/legado/shubao97.com.json)
+        for <http://www.shubao94.com>
+    * [第二书包网(shubaoju.cc)](booksource/legado/shubaoju.cc.json)
+        for <https://www.shubaoju.cc>
+    * [闲读小说(xiandu520.com)](booksource/legado/template_odd_even.json)
+        for <http://www.xiandu520.com>
     * [天幕小说](booksource/legado/tmshy.com.json)
         for <https://www.tmshy.com>
+    * [桃花岛小说(waiwahimh.com)](booksource/legado/waiwahimh.com.json)
+        for <https://www.waiwahimh.com>
     * [无错小说(wcxsw.org)](booksource/legado/wcxsw.org.json)
         for <https://www.wcxsw.org>
+    * [下书看(xiashukan.com)](booksource/legado/xiashukan.com.json)
+        for <http://www.xiashukan.com>
+    * [闲读小说(xiandu520.com)](booksource/legado/xidu520.com.json)
+        for <http://www.xiandu520.com>
     * [Zhaishuw.com](booksource/legado/zhaishuw.com.json)
         for <https://www.zhaishuw.com>
 

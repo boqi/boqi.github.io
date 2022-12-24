@@ -1,0 +1,60 @@
+[{
+    "bookSourceUrl": "https://www.kuihuawu.net",
+    "bookSourceType": "0",
+    "bookSourceName": "葵花小说(kuihuawu.net)",
+    "bookSourceGroup": "Sesadit,Selected,nsfw",
+    "bookSourceComment": "",
+    "loginUrl": "",
+    "loginUi": "",
+    "loginCheckJs": "",
+    "concurrentRate": "",
+    "header": "",
+    "bookUrlPattern": "",
+    "searchUrl": "/modules/article/search.php?searchkey={{key}}&page={{page}},{charset=\"gbk\"}",
+    "exploreUrl": "最近更新::/\n玄幻小说::/lists/1_{{page}}.html\n武侠小说::/lists/2_{{page}}.html\n都市小说::/lists/3_{{page}}.html\n历史小说::/lists/4_{{page}}.html\n网游小说::/lists/5_{{page}}.html\n科幻小说::/lists/6_{{page}}.html\n言情小说::/lists/7_{{page}}.html\n其他小说::/lists/8_{{page}}.html",
+    "enabled": true,
+    "enabledExplore": true,
+    "weight": 0,
+    "customOrder": 0,
+    "lastUpdateTime": 1671892132741,
+    "ruleSearch": {
+        "bookList": "div.item||div.book-coverlist||div#main table.grid tr[1:]",
+        "name": "img.thumbnail@alt||div.image@img@alt||td.odd[0]@text##(?:免费阅读全文|免费阅读)$",
+        "author": "small@text||div.btm@a.0@title||td.odd[1]@text## / 著.*",
+        "kind": "em.1@text||td.odd[2],td.even[2]@text##(-\\d+).*$##$1更新",
+        "wordCount": "em.0@text||td.even[1]@text",
+        "lastChapter": "td.even.0@text",
+        "intro": "dd@text",
+        "coverUrl": "img.thumbnail@src||div.image@img@src||td.odd a[0]@href@js:\nvar cover=new String(result);\nvar a = cover.match(/\\/book\\/(\\d+)/);\nif(a) {\n    var id = a[1] -0;\n  var xid = Math.floor(id/1000);\n  cover = \"http://pic.kuihuawu.net/image/\" + xid + \"/\" + id + \"/\" +  id + \"s.jpg\";\n}\ncover;",
+        "bookUrl": "h4>a@href||div.image@a.0@href||td.odd a[0]@href"
+    },
+    "ruleExplore": {
+        "bookList": "div.list-top>ul>li&&div.list-lastupdate>ul>li",
+        "name": "tag.a.0@text##\\s*\\/.*",
+        "author": "span.other@text||text##\\d\\d\\d\\d-\\d\\d-\\d\\d\\s*\\d\\d:\\d\\d:\\d\\d|.*\\/\\s+",
+        "kind": ".s4@text",
+        "lastChapter": "tag.a.1@text",
+        "coverUrl": "tag.a.0@href@js:\nvar cover=new String(result);\nvar a = cover.match(/\\/book\\/(\\d+)/);\nif(a) {\n    var id = a[1] -0;\n  var xid = Math.floor(id/1000);\n  cover = \"http://pic.kuihuawu.net/image/\" + xid + \"/\" + id + \"/\" +  id + \"s.jpg\";\n}\ncover;",
+        "bookUrl": "tag.a.0@href"
+    },
+    "ruleBookInfo": {
+        "name": "[property=\"og:novel:book_name\"]@content##(?:免费阅读全文|免费阅读)$",
+        "author": "[property=\"og:novel:author\"]@content",
+        "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content##\\s.*",
+        "wordCount": "##字数.([^<]+)<##$1###",
+        "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+        "intro": "[property=\"og:description\"]@content##\\s*《[^》]+》小说推荐：.*",
+        "coverUrl": "[property=\"og:image\"]@content",
+        "tocUrl": "div.book-link@tag.a.0@href"
+    },
+    "ruleToc": {
+        "chapterList": "dl.chapter-list@dd>a||dl.panel-chapterlist[1]@dd>a||div.zjbox dl.zjlist>dd>a||div#list dl a",
+        "chapterName": "text",
+        "chapterUrl": "@onclick||@href@js:\nvar a = new String(result);\nvar b = a.match(/location\\.href\\s*=\\s*'([^']+)/);\nif(!b) {\n    b = a.match(/location\\.href\\s*=\\s*\"([^\"]+)/);\n}\nif(b) {\n    java.log(result);\n    result = b[1];\n    java.log(\"=>\" + result);\n}\nresult"
+    },
+    "ruleContent": {
+        "content": "id.htmlContent@html||id.nr1@html||id.content@html",
+        "nextContentUrl": "@css:a#pb_next[href~=_\\d+\\.html]@href"
+    }
+}
+]

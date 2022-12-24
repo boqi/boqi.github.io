@@ -1,4 +1,4 @@
-{
+[{
     "bookSourceUrl": "http://www.mise123.com/",
     "bookSourceType": "0",
     "bookSourceName": "米色小说(mise123.com)",
@@ -57,3 +57,4 @@
         "replaceRegex": "##www\\.kanqita\\.com\\s*收藏不迷路！|发布地址:.*|-->>.*\\n|<\\/ref=\"http:>"
     }
 }
+]
